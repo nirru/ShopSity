@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/white"
+            android:text="Objective"
+            android:textAppearance="@style/Toolbar.TitleText"
+            android:textStyle="bold"
+            android:id="@+id/toolbar_title" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:gravity="center">
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/objectiveHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/mdtp_light_gray"
+                android:text="@string/headerMsg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearHeader2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/objectiveHeader2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/mdtp_light_gray"
+                android:text="@string/headerMsg2"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/linearMiddle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+                <TextView
+                    android:id="@+id/objPromote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_toLeftOf="@+id/objectiveCheckBox"
+                    android:textColor="@color/mdtp_light_gray"
+                    android:text="@string/checkboxText" />
+
+                <CheckBox
+                    android:id="@+id/objectiveCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="7dp" />
+        </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/linearMiddle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/objectiveCapture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/objectiveCheckBox1"
+                android:textColor="@color/mdtp_light_gray"
+                android:text="@string/capture_leads" />
+
+            <CheckBox
+                android:id="@+id/objectiveCheckBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/linearMiddle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/objectiveReach_Selling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/objectiveCheckBox2"
+                android:textColor="@color/mdtp_light_gray"
+                android:text="@string/reachforselling" />
+
+            <CheckBox
+                android:id="@+id/objectiveCheckBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:id="@+id/linearMiddle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/objectiveReach_Booking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/objectiveCheckBox3"
+                android:textColor="@color/mdtp_light_gray"
+                android:text="@string/reachforbooking" />
+
+            <CheckBox
+                android:id="@+id/objectiveCheckBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/email_sign_in_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/action_next"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

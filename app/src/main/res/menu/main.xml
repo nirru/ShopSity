@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.oxilo.shopsity.activity.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:title=""
+        android:visible="false"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="Help"
+        app:showAsAction="always" />
+</menu>

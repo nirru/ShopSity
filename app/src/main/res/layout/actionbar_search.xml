@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_horizontal" >
+
+
+    <com.oxilo.shopsity.ui.CustomAutoCompleteTextView
+        android:id="@+id/search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/search"
+        android:drawableRight="@drawable/ic_close"
+        android:drawableLeft="@drawable/search_icon"
+        android:textColor="@color/mdtp_light_gray"
+        android:background="@drawable/rounded_map_search"
+        android:popupBackground="@color/windowBackground"
+        android:singleLine="true" />
+
+
+</RelativeLayout>

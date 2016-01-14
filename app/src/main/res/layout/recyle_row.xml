@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="275dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="0.01dp"
+        android:layout_marginBottom="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:paddingRight="9dp"
+            android:paddingLeft="9dp">
+
+            <LinearLayout
+                android:id="@+id/lin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true">
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:text="1190\n67"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/action_invoice_id"/>
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/invoice_id"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:layout_gravity="left"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/lin3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true">
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:layout_gravity="right"
+                    android:textColor="@android:color/black"
+                    android:text="1190\n43"
+                    android:id="@+id/action_campaign_id"/>
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/campaign_id"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:layout_gravity="right"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/lin4"
+                android:layout_below="@+id/lin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true">
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:text="1190\n67"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/plan_action_view"/>
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plan"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:layout_gravity="left"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true">
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1190\n54"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/inr"
+                    android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_below="@+id/lin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true">
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1190\n54"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center"
+                    android:id="@+id/action_inr_view"/>
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/inr"
+                    android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/lin3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true">
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:layout_gravity="right"
+                    android:textColor="@android:color/black"
+                    android:text="1190\n43"
+                    android:id="@+id/action_date_view"/>
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/create_date"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:layout_gravity="right"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/user_name"
+                android:layout_below="@+id/lin4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="US"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/pan_number"
+                android:layout_below="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pane:CZQPYQ123"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/cin"
+                android:layout_below="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="CIN:CZQPYQ123"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:layout_below="@+id/pan_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Tax:\nReg No."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/service_number"
+                android:layout_below="@+id/pan_number"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:text="12233445455"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"/>
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/service_desc"
+                android:layout_below="@+id/service_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:text="@string/invoice_price"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/service_desc"
+                android:background="@android:color/darker_gray"/>
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

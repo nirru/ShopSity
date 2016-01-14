@@ -1,0 +1,434 @@
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <TextView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <!-- Login progress -->
+    <ProgressBar android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/login_progress"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:id="@id/login_form">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textSize="@dimen/thanks_info_text"
+                android:text="@string/thanks_for_promoting"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingTop="@dimen/parent_padding_top"
+                android:paddingBottom="@dimen/parent_padding_bottom">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true">
+
+                    <com.oxilo.shopsity.ui.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="left"
+                        android:text="1190"
+                        android:textColor="@android:color/black"
+                        android:textAllCaps="true"
+                        android:id="@+id/campaign_action_view"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/campaign_id"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                        android:textSize="@dimen/thanks_cam_info"
+                        android:layout_gravity="left"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerHorizontal="true">
+
+                    <com.oxilo.shopsity.ui.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="1190"
+                        android:textColor="@android:color/black"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/action_order_view"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/order_id"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                        android:textSize="@dimen/thanks_cam_info"
+                        android:textAllCaps="true"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentRight="true">
+
+                    <com.oxilo.shopsity.ui.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:layout_gravity="right"
+                        android:text="1190"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/action_ad_view"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Ad_Budget"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                        android:textSize="@dimen/thanks_cam_info"
+                        android:layout_gravity="right"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/parent_padding_top"
+                android:paddingBottom="@dimen/parent_padding_bottom">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true">
+
+                    <com.oxilo.shopsity.ui.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="left"
+                        android:textAllCaps="true"
+                        android:text="1190"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/campaign_start_from"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/start_from"
+                        android:layout_gravity="left"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                        android:textSize="@dimen/thanks_cam_info"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerHorizontal="true">
+
+                    <com.oxilo.shopsity.ui.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:text="1190"
+                        android:id="@+id/action_compilance"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                        android:textSize="@dimen/thanks_cam_info"
+                        android:text="@string/status"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentRight="true">
+
+                    <com.oxilo.shopsity.ui.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="right"
+                        android:textColor="@android:color/black"
+                        android:textAllCaps="true"
+                        android:text="1190"
+                        android:id="@+id/action_inr"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inr"
+                        android:layout_gravity="right"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/thanks_cam_info"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:paddingTop="@dimen/parent_padding_top"
+                android:paddingBottom="@dimen/parent_padding_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true">
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_gravity="left"
+                    android:textColor="@android:color/black"
+                    android:text="1190"
+                    android:textAllCaps="true"
+                    android:id="@+id/action_campaign_tittle"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:text="@string/campaign_title"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true">
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_gravity="left"
+                    android:textColor="@android:color/black"
+                    android:text="1190"
+                    android:textAllCaps="true"
+                    android:id="@+id/action_promotion_message"/>
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_marginTop="@dimen/text_inner_content_top_margin"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:text="@string/promotion_message"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notes:"
+                android:layout_marginTop="10dp"
+                android:paddingTop="5dp"
+                android:textColor="@android:color/darker_gray"
+                android:gravity="center|left"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dots1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"/>
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/dots1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:text="@string/thank1"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/dots2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"/>
+
+                <com.oxilo.shopsity.ui.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/dots2"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/thanks_cam_info"
+                    android:text="@string/thank2"/>
+
+            </RelativeLayout>
+
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp">
+
+               <ImageView
+                   android:id="@+id/dots3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/dot"
+                   android:layout_centerVertical="true"
+                   android:layout_alignParentLeft="true"/>
+
+               <com.oxilo.shopsity.ui.CustomTextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center|left"
+                   android:layout_marginLeft="10dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_toRightOf="@+id/dots3"
+                   android:textColor="@android:color/black"
+                   android:textSize="@dimen/thanks_cam_info"
+                   android:text="@string/thank3"/>
+
+           </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"></View>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/email_sign_in_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/action_see_invoice"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/home_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/action_go_to_home"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

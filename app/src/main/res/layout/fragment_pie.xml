@@ -1,0 +1,200 @@
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/login_progress"
+        tools:context="com.oxilo.shopsity.fragement.graph.PieFragment">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_daily_impression"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hourly Ad Impression"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"/>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_horizental"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_daily_impression">
+
+                <!--<lecho.lib.hellocharts.view.LineChartView-->
+                    <!--android:id="@+id/chart1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:minWidth="600dp"-->
+                    <!--android:minHeight="300dp"-->
+                    <!--android:layout_marginTop="10dp"/>-->
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="300dp"
+                    android:minWidth="350dp"/>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/text_daily_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scroll_horizental"
+                android:text="Hourly Clicks / Actions"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"/>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_horizental_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_daily_click">
+
+                <!--<lecho.lib.hellocharts.view.LineChartView-->
+                <!--android:id="@+id/chart1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:minWidth="600dp"-->
+                <!--android:minHeight="300dp"-->
+                <!--android:layout_marginTop="10dp"/>-->
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart_daily_clcik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="300dp"
+                    android:minWidth="350dp"/>
+
+            </HorizontalScrollView>
+
+
+           <TextView
+               android:id="@+id/text_devices"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/scroll_horizental_1"
+               android:text="Your Ad was shown on the following device OS"
+               android:textAllCaps="false"
+               android:textColor="@android:color/black"/>
+
+            <com.dacer.androidcharts.PieView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_devices"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/pie_view" />
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/android_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/pie_view"
+                android:layout_alignParentRight="true"
+                android:text="Android User"
+                android:textSize="9sp"
+                android:layout_alignTop="@+id/pie_view"
+                android:textColor="@color/white"/>
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/ios_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/android_user"
+                android:layout_alignLeft="@+id/android_user"
+                android:text="iOS User"
+                android:textSize="9sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/window_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ios_user"
+                android:textSize="9sp"
+                android:layout_alignLeft="@+id/android_user"
+                android:text="Winddow User"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+
+            <com.oxilo.shopsity.ui.CustomTextView
+                android:id="@+id/other_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/window_user"
+                android:layout_alignLeft="@+id/android_user"
+                android:text="Other User"
+                android:textSize="9sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/op_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pie_view"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:text="TOP 10 Telecom Networks where your AD was shown..."/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/op_10"
+                android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+                <com.github.mikephil.charting.charts.HorizontalBarChart
+                    android:id="@+id/horizentalGraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:minHeight="300dp"
+                    android:minWidth="500dp"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>
+

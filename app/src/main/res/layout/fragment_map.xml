@@ -1,0 +1,85 @@
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+    </android.support.v7.widget.Toolbar>
+
+    <include
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        layout="@layout/line_progress" />
+
+    <include
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        layout="@layout/actionbar_search"/>
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:layout_below="@+id/search_bar"
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"/>
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_bar"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/ads_to_show_radius"/>
+
+    <TextView
+        android:id="@+id/ads_to_show_radius"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/action_next_btn"
+        android:text="@string/map_message"
+        android:textColor="@color/mdtp_light_gray"/>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/action_next_btn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/action_next"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

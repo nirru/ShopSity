@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">ShopSity</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_old_password">Current Password</string>
+    <string name="prompt_new_password">New Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_check_out">Pay INR 0</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_submit">Submit</string>
+    <string name="action_forgot_password">Forgot Password\?</string>
+    <string name="not_register_yet">Not register yet\? Register now.</string>
+    <string name="already_member">Already a member\? Login</string>
+    <string name="action_join_now">Join Now</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_mobile">This mobile no is not valid</string>
+    <string name="error_invalid_country">Please select a country</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_current_password_wrong">current password is wrong.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_sign_up">Sign Up</string>
+
+    <!--ToDO SignUP Screen-->
+    <string name="label_org_name">Orginisation name</string>
+    <string name="label_mobile_number">Mobile number</string>
+    <string name="label_country">Country</string>
+
+    <!--ForgotPassword Screen-->
+    <string name="display_reset_password">To reset the password enter the email you use to sign in to ShopSity.</string>
+    <string name="action_reset">Go</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Drawer Items -->
+    <string name="drawer_item_1">Promote</string>
+    <string name="drawer_item_2">Report</string>
+    <string name="drawer_item_3">Settings</string>
+    <string name="drawer_item_4">Help</string>
+    <string name="drawer_item_5">Logout</string>
+    <string name="drawer_item_6">Home</string>
+    <string name="drawer_item_7">Reset Password</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <!--TODO:MESSAGE Fragement STRING-->
+    <string name="campaign_title">Campaign title</string>
+    <string name="promotion_message">Promotion message</string>
+    <string name="start_date">Start date</string>
+    <string name="start_time">Start time</string>
+
+    <!--TODO:Action Fragement STRING-->
+    <string name="fragement_action_display_info">What action you want user to take\?</string>
+    <string name="fragement_action_website">Visit my Website / Facebook\*</string>
+    <string name="fragement_action_url">Website</string>
+    <string name="fragement_action_call">Call Me</string>
+
+    <!--ToDO FRAgement preview-->
+    <string name="campaign_message">Campaign Message</string>
+    <string name="campaign_id">Campaign ID</string>
+    <string name="action_action">Web/Click</string>
+    <string name="order_id">Order</string>
+    <string name="order_id1">Order Id</string>
+    <string name="compilance">Compliance</string>
+    <string name="Ad_Budget">Ad budget</string>
+    <string name="start_from">Start from</string>
+    <string name="status">Status</string>
+    <string name="inr">INR</string>
+    <string name="location">Location</string>
+    <string name="url">Url</string>
+    <string name="reverse_geo">Reverse Geo Code Address</string>
+
+    <!--ToDO FRAgement Pay-->
+    <string name="choose_option">Choose one of the plan below</string>
+    <string name="free_trial">Free Trial</string>
+    <string name="plan_a">2500 View INR 1000</string>
+    <string name="plan_b">5000 View INR 2500</string>
+    <string name="plan_c">10000 View INR 5000</string>
+
+    <!--ToDO FRAGEMENT INVOICE-->
+    <string name="invoice_price">*All amount shown are inclusive of all applicable taxes in the country</string>
+
+
+    <!--ToDO :DINESH STRING-->
+    <string name="msg1">What will you promote Today?</string>
+    <string name="action_next">Next</string>
+    <string name="wellcome">Welcome to ShopSity !</string>
+    <string name="wellcome1">Your personal ad agency</string>
+    <string name="wellcome2">Build your local mobile campaign in under a minute !</string>
+    <string name="wellcome3">Show your business to your neighbourhood customers right on their phone </string>
+    <string name="wellcome4">Track your campaign performance</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="checkout">Choose Plan and Checkout</string>
+    <string name="cout1">*All amount shown are inclusive of all applicabletaxes in the country</string>
+    <string name="cout2">By clicking Pay Now you will taken to an external payment Gateway for secured payment processing</string>
+    <string name="cout3">By clicking Pay Now you accept the</string>
+    <string name="cout4">We accept all credit,debit cards and wallet for payment</string>
+
+    <string name="thank1">Please note that your campaign will be reviewed For Compliance, post which it will go live.</string>
+    <string name="thank2">It takes a while for the campaign data to show on the dashboard.</string>
+    <string name="thank3">All applicable taxes are included as part of the amount.</string>
+    <string name="map_message">We will show your ad around 3-4 Kms around the location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="title_activity_thankyou">Thankyou</string>
+    <string name="title_activity_campaigns">Campaigns</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search Places</string>
+    <string name="search_settings">Search Places</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="mobikyte_base_url">http://app.mobikyte.com/index.php/site/siteapi\?</string>
+    <string name="mobikyte_campaign_base_url">http://app.mobikyte.com/index.php/advertiser/campaignapi\?</string>
+    <string name="mobikyte_campaign_invoice_url">http://app.mobikyte.com/index.php/advertiser/invoiceapi\?</string>
+    <string name="mobikyte_graph_url">http://app.mobikyte.com/index.php/advertiser/campaigndetail_api\?</string>
+    <string name="volley_time_out">5000</string>
+    <!-- TODO: Volley error helper -->
+    <string name="no_network_connection" translatable="false">No network connection found</string>
+    <string name="generic_server_down" translatable="false">Server down</string>
+    <string name="generic_server_timeout" translatable="false">Server Timeout</string>
+    <string name="generic_error" translatable="false">No internet</string>
+    <string name="no_internet" translatable="false">No internet</string>
+    <string name="parsing_failed" translatable="false">Parsing Failure</string>
+    <string name="auth_failed" translatable="false">Authentication Failure</string>
+
+    <string name="response_success" translatable="false">SUCCESS</string>
+    <string name="response_error" translatable="false">ERROR</string>
+    <string name="praceable_modal_regsitration">MODAL_REGISTRATION</string>
+
+    <!-- TODO: Thank Or Fail fragement screen -->
+    <string name="plan">Plan</string>
+    <string name="create_date">Created date</string>
+    <string name="invoice_id">InVoice ID</string>
+    <string name="thanks_for_promoting">Thank you for promoting with ShopSity!</string>
+    <string name="action_retry_checkout">Retry Checkout</string>
+    <string name="action_see_invoice">See Invoice</string>
+    <string name="action_go_to_home">Go To Home</string>
+    <string name="Pfail_msg">Somthing went wrong !</string>
+    <string name="Pfail1">Please note that your campaign will be reviewed For Compliance, post which it will go live.</string>
+    <string name="Pfail2">It takes a while for thecampaign data to show on the dashboard.</string>
+    <string name="Pfail3">All applicable taxes are included as part of the amount.</string>
+
+    <!-- TODO: Report Fragement screen -->
+    <string name="call_web">Call / Web</string>
+    <string name="upload">Upload</string>
+    <string name="report_id">Report ID</string>
+    <string name="total_ad">Total Ads</string>
+    <string name="total_ad_remaining">Total Ads Remaining</string>
+    <string name="total_views">Views</string>
+    <string name="clicks">Clicks</string>
+
+    <!-- TODO: Remove or change this placeholder Objective text -->
+    <string name="headerMsg">Objective of your promotion today!</string>
+    <string name="headerMsg2">Select one of the following</string>
+    <string name="checkboxText">Promote an offer or drive traffic to my website/Facebook page/eCommerce</string>
+    <string name="capture_leads">Capture Leads</string>
+    <string name="reachforselling">Reach for selling a product</string>
+    <string name="reachforbooking">Reach for booking a Service/Appointment/Room</string>
+
+    <!-- TODO:FETCH INTENT ADDRESS -->
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+    <string name="arrow_contentDescription">Expand list item arrow</string>
+
+    <!-- Campaign Status -->
+    <string name="status_paused">1</string>
+    <string name="status_awaiting">2</string>
+    <string name="status_completed">3</string>
+    <string name="status_running">0</string>
+    <string name="status_unpaid">4</string>
+    <string name="status_compliance">5</string>
+
+</resources>
