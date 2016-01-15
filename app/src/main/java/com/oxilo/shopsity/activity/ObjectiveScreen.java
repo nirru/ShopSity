@@ -19,6 +19,7 @@ import android.widget.TextView;
 import com.kogitune.activity_transition.ActivityTransitionLauncher;
 import com.oxilo.shopsity.POJO.ModalLogin;
 import com.oxilo.shopsity.R;
+import com.oxilo.shopsity.fragement.AboutFragement;
 import com.oxilo.shopsity.fragement.CampaignListingFragement;
 import com.oxilo.shopsity.fragement.ChangePasswordFragment;
 import com.oxilo.shopsity.fragement.HelpFragement;
@@ -38,7 +39,9 @@ public class ObjectiveScreen extends SampleActivityBase implements
         HelpFragement.OnFragmentInteractionListener,
         CampaignListingFragement.OnFragmentInteractionListener,
         PieFragment.OnFragmentInteractionListener,
-        HeatMapFragement.OnFragmentInteractionListener,ChangePasswordFragment.OnFragmentInteractionListener{
+        HeatMapFragement.OnFragmentInteractionListener,
+        ChangePasswordFragment.OnFragmentInteractionListener,
+        AboutFragement.OnFragmentInteractionListener{
 
 
     ModalLogin modalLogin ;
@@ -208,7 +211,9 @@ public class ObjectiveScreen extends SampleActivityBase implements
                     case R.id.navItem7:
                         refreshFragement(7);
                         break;
-
+                    case R.id.navItem8:
+                        refreshFragement(8);
+                        break;
                 }
                 return false;
             }
@@ -245,6 +250,10 @@ public class ObjectiveScreen extends SampleActivityBase implements
             case 7:
                 mapFragment = ChangePasswordFragment.newInstance(modalLogin, "");
                 ActivityUtils.launchFragementWithAnimation(mapFragment, ObjectiveScreen.this);
+            case 8:
+                AboutFragement aboutFragement = AboutFragement.newInstance("", "");
+                ActivityUtils.launchFragementWithAnimation(aboutFragement, ObjectiveScreen.this);
+                break;
             default:
                 mapFragment = Map.newInstance("", "", modalLogin);
                 ft.add(R.id.main_content, mapFragment);

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.oxilo.shopsity.activity.SplashActivity">
+    tools:context="com.oxilo.shopsity.activity.SplashScreen">
 
     <ImageView
         android:id="@+id/splash"
@@ -14,4 +14,21 @@
         android:background="@android:color/transparent"
         android:src="@drawable/splash"/>
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/bottom_line"
+        android:layout_above="@+id/footer1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="right|center"/>
+    <include
+        android:id="@+id/footer1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/footer">
+
+    </include>
+
+
+</RelativeLayout>

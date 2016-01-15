@@ -27,22 +27,19 @@
 
         <TextView
             android:id="@+id/bottom_line"
-            android:layout_above="@+id/footer"
+            android:layout_above="@+id/footer1"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
             android:gravity="right|center"/>
-        <TextView
-            android:id="@+id/footer"
-            android:layout_alignParentBottom="true"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Powered by"
-            android:drawableRight="@drawable/mobikyte_powered"
-            android:padding="5dp"
-            android:textStyle="italic"
-            android:gravity="right|center"
-            android:textColor="@android:color/black"/>
+       <include
+           android:id="@+id/footer1"
+           android:layout_width="match_parent"
+           android:layout_height="30dp"
+           android:layout_alignParentBottom="true"
+           layout="@layout/footer">
+
+       </include>
 
     </RelativeLayout>
 

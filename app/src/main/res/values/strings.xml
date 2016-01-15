@@ -56,7 +56,8 @@
     <string name="drawer_item_4">Help</string>
     <string name="drawer_item_5">Logout</string>
     <string name="drawer_item_6">Home</string>
-    <string name="drawer_item_7">Reset Password</string>
+    <string name="drawer_item_7">Change Password</string>
+    <string name="drawer_item_8">About</string>
 
     <!--    Permissions    -->
     <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>

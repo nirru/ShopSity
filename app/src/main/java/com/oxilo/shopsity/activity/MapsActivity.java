@@ -74,6 +74,7 @@ import com.oxilo.shopsity.MODAL.MobiKytePlaceCampaignInfo;
 import com.oxilo.shopsity.POJO.ModalLogin;
 import com.oxilo.shopsity.R;
 import com.oxilo.shopsity.adapter.MobikytePlaceAutoAdapter;
+import com.oxilo.shopsity.fragement.AboutFragement;
 import com.oxilo.shopsity.fragement.Action;
 import com.oxilo.shopsity.fragement.CampaignListingFragement;
 import com.oxilo.shopsity.fragement.ChangePasswordFragment;
@@ -115,7 +116,7 @@ public class MapsActivity extends SampleActivityBase implements
         CampaignListingFragement.OnFragmentInteractionListener,
         HeatMapFragement.OnFragmentInteractionListener,
         ReportFragement.OnFragmentInteractionListener, HelpFragement.OnFragmentInteractionListener,
-        ChangePasswordFragment.OnFragmentInteractionListener,
+        ChangePasswordFragment.OnFragmentInteractionListener,AboutFragement.OnFragmentInteractionListener,
         MyMap.OnFragmentInteractionListener, GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener, LocationListener,
         ActivityCompat.OnRequestPermissionsResultCallback {
@@ -264,10 +265,11 @@ public class MapsActivity extends SampleActivityBase implements
 
         if (getIntent() != null) {
             modalLogin = getIntent().getParcelableExtra(getResources().getString(R.string.praceable_modal_regsitration));
+            Log.e("CLIENT ID", "" + modalLogin.getClientid());
         }
 
         initDrawerItem();
-        Log.e("CLIENT ID", "" + modalLogin.getClientid());
+
     }
 
 
@@ -331,6 +333,9 @@ public class MapsActivity extends SampleActivityBase implements
                         break;
                     case R.id.navItem7:
                         refreshFragement(7);
+                        break;
+                    case R.id.navItem8:
+                        refreshFragement(8);
                         break;
                 }
                 return false;
@@ -486,6 +491,10 @@ public class MapsActivity extends SampleActivityBase implements
                 break;
             case 7:
                 mapFragment = ChangePasswordFragment.newInstance(modalLogin, "");
+                ActivityUtils.launchFragementWithAnimation(mapFragment, MapsActivity.this);
+                break;
+            case 8:
+                mapFragment = AboutFragement.newInstance("", "");
                 ActivityUtils.launchFragementWithAnimation(mapFragment, MapsActivity.this);
                 break;
             default:

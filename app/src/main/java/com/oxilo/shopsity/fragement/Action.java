@@ -192,6 +192,8 @@ public class Action extends Fragment {
         webSiteView = (EditText)view.findViewById(R.id.website);
         callView = (EditText)view.findViewById(R.id.call);
 
+        webSiteView.setText(modalLogin.getWebsite().toString() != null ? modalLogin.getWebsite().toString() : "No web url is found");
+
         AppCompatButton btn_next = (AppCompatButton)view.findViewById(R.id.email_sign_in_button);
         btn_next.setOnClickListener(new View.OnClickListener() {
             @Override

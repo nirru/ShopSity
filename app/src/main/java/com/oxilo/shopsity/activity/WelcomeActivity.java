@@ -19,6 +19,7 @@ import android.widget.TextView;
 import com.kogitune.activity_transition.ActivityTransitionLauncher;
 import com.oxilo.shopsity.POJO.ModalLogin;
 import com.oxilo.shopsity.R;
+import com.oxilo.shopsity.fragement.AboutFragement;
 import com.oxilo.shopsity.fragement.CampaignListingFragement;
 import com.oxilo.shopsity.fragement.ChangePasswordFragment;
 import com.oxilo.shopsity.fragement.HelpFragement;
@@ -33,14 +34,16 @@ import com.oxilo.shopsity.logger.Log;
 import com.oxilo.shopsity.utility.ActivityUtils;
 
 
-public class WelcomeActivity extends SampleActivityBase implements ReportFragement.OnFragmentInteractionListener,
+public class WelcomeActivity extends SampleActivityBase
+        implements ReportFragement.OnFragmentInteractionListener,
         Settings.OnFragmentInteractionListener,
         HelpFragement.OnFragmentInteractionListener
         ,CampaignListingFragement.OnFragmentInteractionListener,
         PieFragment.OnFragmentInteractionListener,
         HeatMapFragement.OnFragmentInteractionListener,
         WelcomeFragement.OnFragmentInteractionListener,
-        LearnMoreFragment.OnFragmentInteractionListener,ChangePasswordFragment.OnFragmentInteractionListener{
+        LearnMoreFragment.OnFragmentInteractionListener,
+        ChangePasswordFragment.OnFragmentInteractionListener,AboutFragement.OnFragmentInteractionListener{
 
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle drawerToggle;
@@ -209,6 +212,10 @@ public class WelcomeActivity extends SampleActivityBase implements ReportFrageme
                         break;
                     case R.id.navItem7:
                         refreshFragement(7);
+                        break;
+                    case R.id.navItem8:
+                        refreshFragement(8);
+                        break;
                 }
                 return false;
             }
@@ -244,6 +251,10 @@ public class WelcomeActivity extends SampleActivityBase implements ReportFrageme
                 break;
             case 7:
                 mapFragment = ChangePasswordFragment.newInstance(modalLogin, "");
+                ActivityUtils.launchFragementWithAnimation(mapFragment, WelcomeActivity.this);
+                break;
+            case 8:
+                mapFragment = AboutFragement.newInstance("", "");
                 ActivityUtils.launchFragementWithAnimation(mapFragment, WelcomeActivity.this);
                 break;
             default:

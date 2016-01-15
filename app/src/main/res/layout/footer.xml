@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_toLeftOf="@+id/powered_by_logo"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered by"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="italic"
+        android:gravity="right|center"
+        android:textColor="@android:color/black"/>
+
+
+    <ImageView
+        android:id="@+id/powered_by_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:src="@drawable/mobikyte_powered"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/mobi"/>
+
+    <TextView
+        android:id="@+id/mobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Mobikyte"
+        android:textStyle="italic"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>
