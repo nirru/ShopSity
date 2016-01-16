@@ -118,7 +118,6 @@ public class ObjectiveScreen extends SampleActivityBase implements
         } else {
             menu.findItem(R.id.action_about).setVisible(true);
             return true;
-
         }
     }
 

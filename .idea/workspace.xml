@@ -589,137 +589,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/gradlew.bat" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/local.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_toolbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/mobikyte_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/mobikyte_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/mobikyte_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/mobikyte_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/mobikyte_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/mobikyte_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/mobikyte_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/mobikyte_logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/API/RegistrationApi.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/API/RegistrationApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/AnalyticsTrackers.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/AnalyticsTrackers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/ApplicationController.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/ApplicationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Constants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/DataPullingInterface.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/DataPullingInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/FetchAddressIntentService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/FetchAddressIntentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/CreateClickGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/CreateClickGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/CreateHeatMapGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/CreateHeatMapGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/CreateImpressionGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/CreateImpressionGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/CreateIspGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/CreateIspGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/Priority.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/Job/Priority.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MODAL/CustomModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MODAL/CustomModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MODAL/MobiKytePlaceCampaignInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MODAL/MobiKytePlaceCampaignInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MODAL/MobiKytePrefs.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MODAL/MobiKytePrefs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MODAL/UserCampaign.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MODAL/UserCampaign.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MyAnimator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/MyAnimator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/CampList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/CampList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ClickDatum.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ClickDatum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/DeviceDatum.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/DeviceDatum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/HeatmapDatum.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/HeatmapDatum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ImprDatum.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ImprDatum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/InVoiceObject.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/InVoiceObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/InvoiceList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/InvoiceList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/IspDatum.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/IspDatum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalAddCampign.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalAddCampign.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalAlreadyRegistred.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalAlreadyRegistred.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalChangePassword.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalChangePassword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalCheckOut.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalCheckOut.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalFetchCampaign.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalFetchCampaign.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalInVoice.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalInVoice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalLogin.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalRegistration.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalRegistration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/SocialAuthListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/SocialAuthListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ForgotActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ForgotActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/MapsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/MapsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/Mobikyte.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/Mobikyte.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SampleActivityBase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SampleActivityBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SignUp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SignUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SplashScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SplashScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/WelcomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/WelcomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/adapter/CampaignListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/adapter/CampaignListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/adapter/InVoiceAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/adapter/InVoiceAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/adapter/MobikytePlaceAutoAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/adapter/MobikytePlaceAutoAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/adapter/PlaceAutocompleteAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/adapter/PlaceAutocompleteAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/custom/MyCustomXAxisValueFormatter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/custom/MyCustomXAxisValueFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/custom/MyYAxisValueFormatter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/custom/MyYAxisValueFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/DailyClickGraphFinishedEvent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/DailyClickGraphFinishedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/HeatMapFinishedEvent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/HeatMapFinishedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/ImpressionGraphFinishedEvent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/ImpressionGraphFinishedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/IspGraphFinishedEvent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/IspGraphFinishedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/expandcollapse/VerticalChild.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/expandcollapse/VerticalChild.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/expandcollapse/VerticalExpandableAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/expandcollapse/VerticalExpandableAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/expandcollapse/VerticalParent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/expandcollapse/VerticalParent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/expandcollapse/VerticalParentViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/expandcollapse/VerticalParentViewHolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/AboutFragement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/AboutFragement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Action.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/CampaignListingFragement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/CampaignListingFragement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ChangePasswordFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ChangePasswordFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Checkout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Checkout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/FailFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/FailFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/HelpFragement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/HelpFragement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/InVoiceFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/InVoiceFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/LearnMoreFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/LearnMoreFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Map.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Map.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Message.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/MyMap.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/MyMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ObjectiveFragement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ObjectiveFragement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Pay.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Pay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Preview.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Preview.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ReportFragement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ReportFragement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Settings.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ThankYou.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ThankYou.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/WelcomeFragement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/WelcomeFragement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/BarGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/BarGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/DailyClickGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/DailyClickGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/HeatMapFragement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/HeatMapFragement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/HorizentalGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/HorizentalGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/LineGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/LineGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/PieFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/PieFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/holder/ChildHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/holder/ChildHolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/holder/ChildItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/holder/ChildItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/holder/GroupHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/holder/GroupHolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/holder/GroupItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/holder/GroupItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/ui/ClearableAutoCompleteTextView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/ui/ClearableAutoCompleteTextView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/ui/CustomAutoCompleteTextView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/ui/CustomAutoCompleteTextView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/ui/CustomTextView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/ui/CustomTextView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/ActivityUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/ActivityUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/AnimationUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/AnimationUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/DateUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/DateUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/PermissionUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/PermissionUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/volley/GsonRequest.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/volley/GsonRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/volley/VolleyErrorHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/volley/VolleyErrorHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about_fragement.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about_fragement.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_action.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_action.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_campaign_listing_fragement.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_campaign_listing_fragement.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_password.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_password.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_checkout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_checkout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_heat_map_fragement.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_heat_map_fragement.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_help_fragement.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_help_fragement.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_in_voice.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_in_voice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_learn_more.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_learn_more.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_map.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_map.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_message.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_objective_fragement.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_objective_fragement.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pay.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment__fail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment__fail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pie.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pie.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_preview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_preview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_report_fragement.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_report_fragement.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_thankyou.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_thankyou.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_fragement.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_fragement.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/objective_screen_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/objective_screen_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="ShopSity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -772,8 +643,8 @@
       <file leaf-file-name="ObjectiveScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8206897">
-              <caret line="119" column="24" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.4413793">
+              <caret line="111" column="52" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -4377,10 +4248,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/InVoiceFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/HelpFragement.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_help_fragement.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/MapsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation_drawer_items.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/WelcomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java" />
       </list>
     </option>
   </component>
@@ -5013,13 +4884,13 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -5042,7 +4913,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix issue 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix issue 1.0" />
+    <MESSAGE value="fix issue 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix issue 2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5572,8 +5444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8206897">
-          <caret line="119" column="24" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.4413793">
+          <caret line="111" column="52" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
           <folding />
         </state>
       </provider>
