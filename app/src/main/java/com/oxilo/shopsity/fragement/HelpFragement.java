@@ -1,16 +1,36 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.annotation.TargetApi;
 import android.app.Fragment;
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebResourceError;
+import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.TextView;
 
 import com.oxilo.shopsity.R;
 
@@ -33,7 +53,10 @@ public class HelpFragement extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    Toolbar toolbar;
+    private WebView mLoginFormView;
+    private View mProgressView;
+//    Toolbar toolbar;
+   public static final String HELP_URL = "http://www.mobikyte.com/faq.html";
     private OnFragmentInteractionListener mListener;
 
     public HelpFragement() {
@@ -78,16 +101,14 @@ public class HelpFragement extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-       toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//       toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
 
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
-        WebView myWebView = (WebView) view.findViewById(R.id.webview);
-        WebSettings webSettings = myWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("http://www.mobikyte.com/faq.html");
+        init(view);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -117,8 +138,15 @@ public class HelpFragement extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        toolbar.setTitle("Help");
+//        toolbar.setTitle("Help");
 
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Help");
     }
 
 
@@ -137,4 +165,109 @@ public class HelpFragement extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+    /**
+     * Shows the progress UI and hides the login form.
+     */
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
+    private void showProgress(final boolean show) {
+        // On Honeycomb MR2 we have the ViewPropertyAnimator APIs, which allow
+        // for very easy animations. If available, use these APIs to fade-in
+        // the progress spinner.
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
+            int shortAnimTime = getResources().getInteger(android.R.integer.config_shortAnimTime);
+
+            mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);
+            mLoginFormView.animate().setDuration(shortAnimTime).alpha(
+                    show ? 0 : 1).setListener(new AnimatorListenerAdapter() {
+                @Override
+                public void onAnimationEnd(Animator animation) {
+                    mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);
+                }
+            });
+
+            mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
+            mProgressView.animate().setDuration(shortAnimTime).alpha(
+                    show ? 1 : 0).setListener(new AnimatorListenerAdapter() {
+                @Override
+                public void onAnimationEnd(Animator animation) {
+                    mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
+                }
+            });
+        } else {
+            // The ViewPropertyAnimator APIs are not available, so simply show
+            // and hide the relevant UI components.
+            mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
+            mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);
+        }
+    }
+
+    private void init(View view){
+//        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+        mProgressView = view.findViewById(R.id.login_progress);
+        mLoginFormView = (WebView)view.findViewById(R.id.login_form);
+        mLoginFormView.setWebViewClient(new WebViewClient() {
+
+            @Override
+            public void onPageStarted(WebView view, String url, Bitmap favicon) {
+                super.onPageStarted(view, url, favicon);
+                showProgress(true);
+            }
+
+            @Override
+            public void onLoadResource(WebView view, String url) {
+//                showProgress(true);
+            }
+
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                try {
+                    showProgress(false);
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                view.loadUrl(url);
+                return true;
+            }
+
+            @Override
+            public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
+                super.onReceivedError(view, request, error);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    Log.e("PRINT", "" + error.getDescription().toString());
+                }
+
+            }
+        });
+
+        mLoginFormView.getSettings().setJavaScriptEnabled(true);
+
+        // Other webview options
+        /*
+        webView.getSettings().setLoadWithOverviewMode(true);
+        webView.getSettings().setUseWideViewPort(true);
+        webView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+        webView.setScrollbarFadingEnabled(false);
+        webView.getSettings().setBuiltInZoomControls(true);
+        */
+
+        /*
+         String summary = "<html><body>You scored <b>192</b> points.</body></html>";
+         webview.loadData(summary, "text/html", null);
+         */
+
+        //Load url in webview
+        mLoginFormView.loadUrl(HELP_URL);
+
+    }
+
 }

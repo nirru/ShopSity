@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,6 +19,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.oxilo.shopsity.POJO.ModalLogin;
 import com.oxilo.shopsity.R;
@@ -33,7 +44,7 @@ public class Settings extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
-    Toolbar toolbar;
+//    Toolbar toolbar;
 
     /**
      * Use this factory method to create a new instance of
@@ -101,8 +112,8 @@ public class Settings extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        if (toolbar!=null)
-            toolbar.setTitle("Settings");
+//        if (toolbar!=null)
+//            toolbar.setTitle("Settings");
     }
 
     @Override
@@ -110,6 +121,13 @@ public class Settings extends Fragment {
         super.onDetach();
         mListener = null;
     }
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Settings");
+    }
+
 
     /**
      * This interface must be implemented by activities that contain this
@@ -127,18 +145,18 @@ public class Settings extends Fragment {
     }
 
     private void initUiWidget(View view){
-         toolbar = (Toolbar)view.findViewById(R.id.toolbar);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // update the main content by replacing fragments
-                getFragmentManager().popBackStack();
-            }
-        });
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+//         toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // update the main content by replacing fragments
+//                getFragmentManager().popBackStack();
+//            }
+//        });
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
 
         CustomTextView nameView = (CustomTextView)view.findViewById(R.id.action_view_name);
         CustomTextView businessNameView = (CustomTextView)view.findViewById(R.id.action_bussiness_name);

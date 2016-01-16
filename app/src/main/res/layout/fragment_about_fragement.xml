@@ -7,30 +7,29 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:minHeight="?attr/actionBarSize"-->
+        <!--app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+        <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="sans-serif-bold"
-            android:textColor="@color/white"
-            android:text="About"
-            android:textAppearance="@style/Toolbar.TitleText"
-            android:textStyle="bold"
-            android:id="@+id/toolbar_title" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:fontFamily="sans-serif-bold"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:text="About"-->
+            <!--android:textAppearance="@style/Toolbar.TitleText"-->
+            <!--android:textStyle="bold"-->
+            <!--android:id="@+id/toolbar_title" />-->
 
-    </android.support.v7.widget.Toolbar>
+    <!--</android.support.v7.widget.Toolbar>-->
 
     <ProgressBar
-        android:layout_below="@+id/toolbar"
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
@@ -41,7 +40,6 @@
         android:visibility="gone"/>
 
     <WebView
-        android:layout_below="@+id/toolbar"
         android:id="@+id/login_form"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">

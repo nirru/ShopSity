@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.activity;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -11,6 +21,7 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -47,7 +58,7 @@ public class WelcomeActivity extends SampleActivityBase
 
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle drawerToggle;
-    Toolbar toolbar;
+    public Toolbar toolbar;
     NavigationView navigation;
     private FragmentManager fragmentManager;
     ModalLogin modalLogin ;
@@ -156,8 +167,16 @@ public class WelcomeActivity extends SampleActivityBase
      * and handling the click event of drawer item
      */
     private void initDrawerItem() {
+        toolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(false);
+
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
-        drawerToggle = new ActionBarDrawerToggle(WelcomeActivity.this, drawerLayout, R.string.app_name, R.string.app_name) {
+
+        drawerToggle = new ActionBarDrawerToggle(WelcomeActivity.this, drawerLayout,toolbar, R.string.app_name, R.string.app_name) {
             @Override
             public void onDrawerClosed(View drawerView) {
                 super.onDrawerClosed(drawerView);
@@ -171,7 +190,18 @@ public class WelcomeActivity extends SampleActivityBase
                 invalidateOptionsMenu();
             }
         };
+        drawerToggle.setDrawerIndicatorEnabled(false);
         drawerLayout.setDrawerListener(drawerToggle);
+        // mDrawerToggle.setHomeAsUpIndicator(R.drawable.menu_icon);
+
+        toolbar.setNavigationIcon(R.mipmap.mobikyte_logo);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(Gravity.LEFT);
+            }
+        });
 
         navigation = (NavigationView) findViewById(R.id.navigation);
         View header = navigation.getHeaderView(0);
@@ -248,6 +278,8 @@ public class WelcomeActivity extends SampleActivityBase
                 ActivityUtils.launchFragementWithAnimation(settings, WelcomeActivity.this);
                 break;
             case 4:
+                mapFragment = HelpFragement.newInstance("","");
+                ActivityUtils.launchFragementWithAnimation(mapFragment, WelcomeActivity.this);
                 break;
             case 7:
                 mapFragment = ChangePasswordFragment.newInstance(modalLogin, "");

@@ -1,5 +1,16 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
@@ -11,10 +22,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.oxilo.shopsity.POJO.ModalLogin;
 import com.oxilo.shopsity.R;
 import com.oxilo.shopsity.activity.ObjectiveScreen;
+import com.oxilo.shopsity.activity.WelcomeActivity;
 import com.oxilo.shopsity.ui.CustomTextView;
 import com.oxilo.shopsity.utility.ActivityUtils;
 
@@ -82,12 +95,14 @@ public class WelcomeFragement extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
-        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+//        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+//
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(false);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.mipmap.mobikyte_logo);
+
         AppCompatButton email_sign_in_button = (AppCompatButton)view.findViewById(R.id.email_sign_in_button);
         email_sign_in_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -121,12 +136,12 @@ public class WelcomeFragement extends Fragment {
     }
 
     @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        if (activity instanceof OnFragmentInteractionListener) {
+            mListener = (OnFragmentInteractionListener) activity;
         } else {
-            throw new RuntimeException(context.toString()
+            throw new RuntimeException(activity.toString()
                     + " must implement OnFragmentInteractionListener");
         }
     }
@@ -150,6 +165,14 @@ public class WelcomeFragement extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+       TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Welcome");
     }
 
     @Override

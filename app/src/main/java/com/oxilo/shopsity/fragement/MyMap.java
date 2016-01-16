@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.Manifest;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

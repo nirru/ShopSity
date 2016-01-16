@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
@@ -72,7 +82,7 @@ public class Checkout extends Fragment {
 
     private OnFragmentInteractionListener mListener;
     private DataPullingInterface mHostInterface;
-    Toolbar toolbar;
+//    Toolbar toolbar;
     public MobiKytePlaceCampaignInfo place = null;
 
     /**Paytm Detail
@@ -160,7 +170,13 @@ public class Checkout extends Fragment {
     public void onResume() {
         super.onResume();
         showProgress(false);
-        toolbar.setTitle("Checkout");
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Action");
     }
 
     /**
@@ -179,20 +195,20 @@ public class Checkout extends Fragment {
     }
 
     private void initUiWidget(View v){
-        toolbar = (Toolbar)v.findViewById(R.id.toolbar);
-
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // update the main content by replacing fragments
-                getFragmentManager().popBackStack();
-            }
-        });
-
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+//        toolbar = (Toolbar)v.findViewById(R.id.toolbar);
+//
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // update the main content by replacing fragments
+//                getFragmentManager().popBackStack();
+//            }
+//        });
+//
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
 
         mLoginFormView = v.findViewById(R.id.login_form);
         mProgressView = v.findViewById(R.id.login_progress);

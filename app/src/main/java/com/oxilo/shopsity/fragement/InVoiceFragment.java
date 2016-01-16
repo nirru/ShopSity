@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
@@ -15,6 +25,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Response;
@@ -62,7 +73,7 @@ public class InVoiceFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
     RecyclerView recyclerView;
-    Toolbar toolbar;
+//    Toolbar toolbar;
     private GroupItem groupItem;
 
     private View mProgressView;
@@ -146,7 +157,14 @@ public class InVoiceFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        toolbar.setTitle("Invoice");
+//        toolbar.setTitle("Invoice");
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Invoice");
     }
 
     /**
@@ -165,21 +183,23 @@ public class InVoiceFragment extends Fragment {
     }
 
     private void initUiWidget(View view){
-        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // update the main content by replacing fragments
-                getFragmentManager().popBackStack();
-            }
-        });
+//        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // update the main content by replacing fragments
+//                getFragmentManager().popBackStack();
+//            }
+//        });
+//
+//
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
 
         mLoginFormView = view.findViewById(R.id.login_form);
         mProgressView = view.findViewById(R.id.login_progress);
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
 
         recyclerView = (RecyclerView)view.findViewById(R.id.recyle_2);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));

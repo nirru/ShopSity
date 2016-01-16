@@ -1,5 +1,14 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
@@ -44,7 +53,7 @@ public class ObjectiveFragement extends Fragment {
     CheckBox objCheckBox,objCheckBox1,objCheckBox2,objCheckBox3;
     AppCompatButton objButtonNext;
 
-    Toolbar toolbar;
+//    Toolbar toolbar;
 
     public ObjectiveFragement() {
         // Required empty public constructor
@@ -114,6 +123,13 @@ public class ObjectiveFragement extends Fragment {
         mListener = null;
     }
 
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Objective");
+    }
+
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
@@ -131,13 +147,14 @@ public class ObjectiveFragement extends Fragment {
 
     private void initUiWidget(View view){
         Log.e("odal", "" + modalLogin.getClientid());
-        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
-        toolbar.setTitle("Location");
-        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+//        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//        toolbar.setTitle("Location");
+//        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+
         objHeader1=(TextView)view.findViewById(R.id.objectiveHeader);
         objHeader2=(TextView)view.findViewById(R.id.objectiveHeader2);
         objPromote=(TextView)view.findViewById(R.id.objPromote);

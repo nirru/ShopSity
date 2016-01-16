@@ -1,5 +1,14 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
@@ -17,6 +26,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.oxilo.shopsity.DataPullingInterface;
 import com.oxilo.shopsity.MODAL.MobiKytePlaceCampaignInfo;
@@ -64,7 +74,7 @@ public class Message extends Fragment {
     private View mLoginFormView,mProgressView;
 
     private int mHourOfDay, mMinute, mSecond,mYear,  mMonthOfYear,  mDayOfMonth;
-    Toolbar toolbar;
+//    Toolbar toolbar;
     public MobiKytePlaceCampaignInfo place = null;
 
     /**
@@ -150,10 +160,15 @@ public class Message extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        toolbar.setTitle("Message");
+//        toolbar.setTitle("Message");
         showProgress(false);
     }
-
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Message");
+    }
 
     /**
      * This interface must be implemented by activities that contain this
@@ -172,22 +187,23 @@ public class Message extends Fragment {
 
 
     private void initUiWidget(View v){
-        toolbar = (Toolbar)v.findViewById(R.id.toolbar);
+//        toolbar = (Toolbar)v.findViewById(R.id.toolbar);
 
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // update the main content by replacing fragments
-                Intent i = new Intent(getActivity(),MapsActivity.class);
-                i.putExtra(getResources().getString(R.string.praceable_modal_regsitration), modalLogin);
-                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(i);
-            }
-        });
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // update the main content by replacing fragments
+//                Intent i = new Intent(getActivity(),MapsActivity.class);
+//                i.putExtra(getResources().getString(R.string.praceable_modal_regsitration), modalLogin);
+//                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//                startActivity(i);
+//            }
+//        });
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+
         mLoginFormView = v.findViewById(R.id.login_form);
         mProgressView = v.findViewById(R.id.login_progress);
         mCampaignView = (EditText)v.findViewById(R.id.campaign_title);

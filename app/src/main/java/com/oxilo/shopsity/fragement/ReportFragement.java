@@ -1,5 +1,14 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
 import android.app.Activity;
 import android.app.Fragment;
 import android.net.Uri;
@@ -47,7 +56,7 @@ public class ReportFragement extends Fragment {
     private View mProgressView;
     private View mLoginFormView;
 
-    Toolbar toolbar;
+//    Toolbar toolbar;
 
     public ReportFragement() {
         // Required empty public constructor
@@ -120,7 +129,13 @@ public class ReportFragement extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        toolbar.setTitle("Dashboard");
+//        toolbar.setTitle("Dashboard");
+    }
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Dashboard");
     }
 
     /**
@@ -140,18 +155,19 @@ public class ReportFragement extends Fragment {
 
 
     private void initUiWidget(View view){
-        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // update the main content by replacing fragments
-                getFragmentManager().popBackStack();
-            }
-        });
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+//        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // update the main content by replacing fragments
+//                getFragmentManager().popBackStack();
+//            }
+//        });
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+
         socialAuthListener = new SocialAuthListener(getActivity());
         mLoginFormView = view.findViewById(R.id.login_form);
         mProgressView = view.findViewById(R.id.login_progress);

@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
@@ -15,6 +25,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -73,7 +84,7 @@ public class CampaignListingFragement extends Fragment{
     private RecyclerView mRecyleView;
     private GroupItem groupItem;
     private VerticalExpandableAdapter mExpandableAdapter;
-    private Toolbar toolbar;
+//    private Toolbar toolbar;
 
     int myPosition = 0;
 
@@ -167,7 +178,14 @@ public class CampaignListingFragement extends Fragment{
 //                }
 //            });
 //        }
-        toolbar.setTitle("Reports");
+//        toolbar.setTitle("Reports");
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Reports");
     }
 
     /**
@@ -186,21 +204,21 @@ public class CampaignListingFragement extends Fragment{
     }
 
     private void initUiWidget(View view){
-        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
-        toolbar.setTitle("Reports");
-
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // update the main content by replacing fragments
-                getFragmentManager().popBackStack();
-            }
-        });
-
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+//        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//        toolbar.setTitle("Reports");
+//
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // update the main content by replacing fragments
+//                getFragmentManager().popBackStack();
+//            }
+//        });
+//
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
 
         mProgressView = view.findViewById(R.id.login_progress);
         mLoginFormView = view.findViewById(R.id.login_form);

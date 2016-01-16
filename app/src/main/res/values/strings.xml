@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ShopSity</string>
+    <string name="app_name">CityAds</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -105,7 +105,7 @@
     <!--ToDO :DINESH STRING-->
     <string name="msg1">What will you promote Today?</string>
     <string name="action_next">Next</string>
-    <string name="wellcome">Welcome to ShopSity !</string>
+    <string name="wellcome">Welcome to CityAds !</string>
     <string name="wellcome1">Your personal ad agency</string>
     <string name="wellcome2">Build your local mobile campaign in under a minute !</string>
     <string name="wellcome3">Show your business to your neighbourhood customers right on their phone </string>
@@ -120,7 +120,7 @@
     <string name="thank1">Please note that your campaign will be reviewed For Compliance, post which it will go live.</string>
     <string name="thank2">It takes a while for the campaign data to show on the dashboard.</string>
     <string name="thank3">All applicable taxes are included as part of the amount.</string>
-    <string name="map_message">We will show your ad around 3-4 Kms around the location</string>
+    <string name="map_message">We will show your ad around 7-8 Kms around the location</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="title_activity_checkout">Checkout</string>
     <string name="title_activity_thankyou">Thankyou</string>

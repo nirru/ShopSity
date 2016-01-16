@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.activity;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -36,6 +46,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -278,6 +289,13 @@ public class MapsActivity extends SampleActivityBase implements
      * and handling the click event of drawer item
      */
     private void initDrawerItem() {
+        toolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(false);
+
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         drawerToggle = new ActionBarDrawerToggle(MapsActivity.this, drawerLayout, R.string.app_name, R.string.app_name) {
             @Override
@@ -293,7 +311,19 @@ public class MapsActivity extends SampleActivityBase implements
                 invalidateOptionsMenu();
             }
         };
+        drawerToggle.setDrawerIndicatorEnabled(false);
         drawerLayout.setDrawerListener(drawerToggle);
+        // mDrawerToggle.setHomeAsUpIndicator(R.drawable.menu_icon);
+
+        toolbar.setNavigationIcon(R.mipmap.mobikyte_logo);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(Gravity.LEFT);
+            }
+        });
+
         navigation = (NavigationView) findViewById(R.id.navigation);
         View header = navigation.getHeaderView(0);
         TextView userNameView = (TextView) header.findViewById(R.id.username_id);
@@ -488,6 +518,8 @@ public class MapsActivity extends SampleActivityBase implements
                 ActivityUtils.launchFragementWithAnimation(settings, MapsActivity.this);
                 break;
             case 4:
+                mapFragment = HelpFragement.newInstance("","");
+                ActivityUtils.launchFragementWithAnimation(mapFragment, MapsActivity.this);
                 break;
             case 7:
                 mapFragment = ChangePasswordFragment.newInstance(modalLogin, "");
@@ -842,7 +874,7 @@ public class MapsActivity extends SampleActivityBase implements
                     mMap.clear();
                 mapCircle = mMap.addCircle(new CircleOptions()
                         .center(new LatLng(latitude, longitude))
-                        .radius(3500)
+                        .radius(7500)
                         .strokeColor(Color.parseColor("#3a89e6"))
                         .strokeWidth(3)
                         .fillColor(Color.TRANSPARENT));
@@ -866,7 +898,7 @@ public class MapsActivity extends SampleActivityBase implements
                 mMap.clear();
             mapCircle = mMap.addCircle(new CircleOptions()
                     .center(new LatLng(latitude, longitude))
-                    .radius(3500)
+                    .radius(7500)
                     .strokeColor(Color.parseColor("#3a89e6"))
                     .strokeWidth(3)
                     .fillColor(Color.TRANSPARENT));

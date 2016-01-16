@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.fragement.graph;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
@@ -88,7 +98,7 @@ public class PieFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
     private PieView pieView;
-    Toolbar toolbar;
+//    Toolbar toolbar;
     private TextView androidUserView,iOsUserView,windowUserView,other;
     private View mProgressView;
     private View mLoginFormView;
@@ -213,8 +223,15 @@ public class PieFragment extends Fragment {
         Activity activity = getActivity();
         if (!isAdded())
             return;
-        if (toolbar!=null)
-            toolbar.setTitle("Impression");
+//        if (toolbar!=null)
+//            toolbar.setTitle("Impression");
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Impression");
     }
 
     /** handle the response
@@ -372,16 +389,16 @@ public class PieFragment extends Fragment {
     }
 
     private void initUiWidget(View view){
-        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // update the main content by replacing fragments
-                getFragmentManager().popBackStack();
-            }
-        });
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // update the main content by replacing fragments
+//                getFragmentManager().popBackStack();
+//            }
+//        });
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
           groupItem = new GroupItem();
           mLoginFormView = view.findViewById(R.id.login_form);
           mProgressView = view.findViewById(R.id.login_progress);

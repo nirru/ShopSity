@@ -16,11 +16,33 @@
         android:fitsSystemWindows="true"
         tools:context=".LoginActivity">
 
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:background="@color/colorPrimary"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-bold"
+                android:textColor="@color/white"
+                android:text="Welcome"
+                android:textAppearance="@style/Toolbar.TitleText"
+                android:textStyle="bold"
+                android:id="@+id/toolbar_title" />
+
+        </android.support.v7.widget.Toolbar>
+
 
         <com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout
             android:id="@+id/main_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
             android:layout_above="@+id/bottom_line"
             android:fitsSystemWindows="true">
         </com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

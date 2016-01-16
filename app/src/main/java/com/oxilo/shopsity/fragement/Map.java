@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
@@ -13,6 +23,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -55,7 +66,7 @@ public class Map extends Fragment implements GoogleMap.OnMyLocationButtonClickLi
     MapView mapView;
     private GoogleMap mMap;
     private boolean mapsSupported = true;
-    Toolbar toolbar;
+//    Toolbar toolbar;
 
     public final static int PLAY_SERVICES_RESOLUTION_REQUEST = 1000;
     private MobiKytePlaceCampaignInfo mobiKytePlaceCampaignInfo;
@@ -205,6 +216,8 @@ public class Map extends Fragment implements GoogleMap.OnMyLocationButtonClickLi
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         try {
+            TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+            toolbar_title.setText("Location");
             MapsInitializer.initialize(getActivity());
         } catch (Exception e) {
             mapsSupported = false;
@@ -260,7 +273,7 @@ public class Map extends Fragment implements GoogleMap.OnMyLocationButtonClickLi
     public void onResume() {
         super.onResume();
         mapView.onResume();
-        toolbar.setTitle("Location");
+//        toolbar.setTitle("Location");
         searchBox.setText("");
     }
 
@@ -282,13 +295,16 @@ public class Map extends Fragment implements GoogleMap.OnMyLocationButtonClickLi
         mapView.onLowMemory();
     }
 
+
+
     private void initUiWidget(final View v){
-        toolbar = (Toolbar)v.findViewById(R.id.toolbar);
-        toolbar.setTitle("Location");
-        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+//        toolbar = (Toolbar)v.findViewById(R.id.toolbar);
+//        toolbar.setTitle("Location");
+//        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+
         AppCompatButton action_next = (AppCompatButton)v.findViewById(R.id.action_next_btn);
         action_next.setOnClickListener(new View.OnClickListener() {
             @Override

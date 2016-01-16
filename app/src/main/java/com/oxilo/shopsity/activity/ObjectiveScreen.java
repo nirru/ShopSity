@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.activity;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -11,6 +21,7 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -152,6 +163,13 @@ public class ObjectiveScreen extends SampleActivityBase implements
      * and handling the click event of drawer item
      */
     private void initDrawerItem() {
+        toolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(false);
+
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         drawerToggle = new ActionBarDrawerToggle(ObjectiveScreen.this, drawerLayout, R.string.app_name, R.string.app_name) {
             @Override
@@ -167,7 +185,18 @@ public class ObjectiveScreen extends SampleActivityBase implements
                 invalidateOptionsMenu();
             }
         };
+        drawerToggle.setDrawerIndicatorEnabled(false);
         drawerLayout.setDrawerListener(drawerToggle);
+        // mDrawerToggle.setHomeAsUpIndicator(R.drawable.menu_icon);
+
+        toolbar.setNavigationIcon(R.mipmap.mobikyte_logo);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(Gravity.LEFT);
+            }
+        });
 
         navigation = (NavigationView) findViewById(R.id.navigation);
         View header = navigation.getHeaderView(0);
@@ -191,9 +220,6 @@ public class ObjectiveScreen extends SampleActivityBase implements
                         break;
                     case R.id.navItem3:
                         refreshFragement(3);
-                        break;
-                    case R.id.navItem4:
-                        refreshFragement(4);
                         break;
                     case R.id.navItem5:
                         final Intent intent = new Intent(ObjectiveScreen.this, LoginActivity.class);
@@ -246,6 +272,8 @@ public class ObjectiveScreen extends SampleActivityBase implements
                 ActivityUtils.launchFragementWithAnimation(settings, ObjectiveScreen.this);
                 break;
             case 4:
+                mapFragment = HelpFragement.newInstance("","");
+                ActivityUtils.launchFragementWithAnimation(mapFragment, ObjectiveScreen.this);
                 break;
             case 7:
                 mapFragment = ChangePasswordFragment.newInstance(modalLogin, "");

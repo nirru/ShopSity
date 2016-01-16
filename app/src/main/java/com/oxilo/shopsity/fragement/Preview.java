@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.fragement;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -42,7 +52,7 @@ public class Preview extends Fragment {
     private UserCampaign userCampaign;
     ModalAddCampign modalAddCampign;
     ModalLogin modalLogin;
-    Toolbar toolbar;
+//    Toolbar toolbar;
 
     /**UI WIDGET
      *
@@ -129,7 +139,13 @@ public class Preview extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        toolbar.setTitle("Preview");
+//        toolbar.setTitle("Preview");
+    }
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+        toolbar_title.setText("Preview");
     }
 
     /**
@@ -148,21 +164,22 @@ public class Preview extends Fragment {
     }
 
     private void initUIWidget(View v){
-         toolbar = (Toolbar)v.findViewById(R.id.toolbar);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // update the main content by replacing fragments
-                Intent i = new Intent(getActivity(),MapsActivity.class);
-                i.putExtra(getResources().getString(R.string.praceable_modal_regsitration), modalLogin);
-                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(i);
-            }
-        });
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+//         toolbar = (Toolbar)v.findViewById(R.id.toolbar);
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // update the main content by replacing fragments
+//                Intent i = new Intent(getActivity(),MapsActivity.class);
+//                i.putExtra(getResources().getString(R.string.praceable_modal_regsitration), modalLogin);
+//                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//                startActivity(i);
+//            }
+//        });
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+//        ((AppCompatActivity)getActivity()).getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_menu);
+
         camapignView = (TextView)v.findViewById(R.id.action_campaign_id);
         startDateView = (TextView)v.findViewById(R.id.action_start_date);
         locationView = (TextView)v.findViewById(R.id.action_location);

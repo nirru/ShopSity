@@ -1,5 +1,15 @@
 package com.oxilo.shopsity.fragement.graph;
 
+/*
+ All Copyright, Audianz Network Pvt ltd.
+CIN:
+All intellectual property, code ownership belongs un-conditionally
+to Audianz Network Pvt Ltd. No unauthorised code copying,
+redistribution and editing is permitted.
+Author: Audianz Network Pvt Ltd
+CIN:
+*/
+
 import android.Manifest;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -20,6 +30,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Response;
@@ -102,7 +113,7 @@ public class HeatMapFragement extends Fragment implements GoogleMap.OnMyLocation
      * {@link #onRequestPermissionsResult(int, String[], int[])}.
      */
     private boolean mPermissionDenied = false;
-    Toolbar toolbar;
+//    Toolbar toolbar;
 
     /**
      * HEatMAp Component
@@ -281,6 +292,8 @@ public class HeatMapFragement extends Fragment implements GoogleMap.OnMyLocation
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         try {
+            TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
+            toolbar_title.setText("HeatMap");
             MapsInitializer.initialize(getActivity());
         } catch (Exception e) {
             mapsSupported = false;
@@ -318,7 +331,7 @@ public class HeatMapFragement extends Fragment implements GoogleMap.OnMyLocation
     @Override
     public void onResume() {
         super.onResume();
-        toolbar.setTitle("HeatMap");
+//        toolbar.setTitle("HeatMap");
         mapView.onResume();
         initializeMap();
     }
@@ -343,6 +356,7 @@ public class HeatMapFragement extends Fragment implements GoogleMap.OnMyLocation
     }
 
 
+
     @SuppressWarnings("UnusedDeclaration")
     public void onEventMainThread(HeatMapFinishedEvent event) {
         // Update the UI in the main thread
@@ -364,16 +378,16 @@ public class HeatMapFragement extends Fragment implements GoogleMap.OnMyLocation
     }
 
     private void initUiWidget(View view){
-        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // update the main content by replacing fragments
-                getFragmentManager().popBackStack();
-            }
-        });
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        toolbar = (Toolbar)view.findViewById(R.id.toolbar);
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // update the main content by replacing fragments
+//                getFragmentManager().popBackStack();
+//            }
+//        });
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         jobManager = ApplicationController.getInstance().getJobManager();
         groupItem = new GroupItem();
         mLoginFormView = view.findViewById(R.id.login_form);
