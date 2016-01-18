@@ -109,10 +109,16 @@ public class SplashScreen extends AppCompatActivity implements  GoogleApiClient.
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (checkPlayServices()) {
-            // Building the GoogleApi client
-            buildGoogleApiClient();
+        try {
+            if (checkPlayServices()) {
+                // Building the GoogleApi client
+                buildGoogleApiClient();
+            }
+        }catch (Exception ex){
+            ex.printStackTrace();
         }
+
+
 //        userLoginLaunchMainActivity();
 
     }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CityAds</string>
+    <string name="app_name">SityAds</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -105,7 +105,7 @@
     <!--ToDO :DINESH STRING-->
     <string name="msg1">What will you promote Today?</string>
     <string name="action_next">Next</string>
-    <string name="wellcome">Welcome to CityAds !</string>
+    <string name="wellcome">Welcome to SityAds !</string>
     <string name="wellcome1">Your personal ad agency</string>
     <string name="wellcome2">Build your local mobile campaign in under a minute !</string>
     <string name="wellcome3">Show your business to your neighbourhood customers right on their phone </string>

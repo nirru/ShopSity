@@ -28,6 +28,8 @@ import android.graphics.drawable.Drawable;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -450,7 +452,6 @@ public class MapsActivity extends SampleActivityBase implements
         } else {
             menu.findItem(R.id.action_about).setVisible(true);
             return true;
-
         }
     }
 
@@ -619,6 +620,7 @@ public class MapsActivity extends SampleActivityBase implements
                 map.setOnMyLocationButtonClickListener(new GoogleMap.OnMyLocationButtonClickListener() {
                     @Override
                     public boolean onMyLocationButtonClick() {
+                        if (haveNetworkConnection())
                         displayLocationOnDragerEnd(map.getMyLocation().getLatitude(),map.getMyLocation().getLongitude());
                         return true;
                     }
@@ -672,6 +674,27 @@ public class MapsActivity extends SampleActivityBase implements
         return this.mobiKytePlaceCampaignInfo;
     }
 
+
+    private boolean haveNetworkConnection() {
+        boolean haveConnectedWifi = false;
+        boolean haveConnectedMobile = false;
+         try {
+             ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+             NetworkInfo[] netInfo = cm.getAllNetworkInfo();
+             for (NetworkInfo ni : netInfo) {
+                 if (ni.getTypeName().equalsIgnoreCase("WIFI"))
+                     if (ni.isConnected())
+                haveConnectedWifi = true;
+                 if (ni.getTypeName().equalsIgnoreCase("MOBILE"))
+                     if (ni.isConnected())
+                         haveConnectedMobile = true;
+             }
+         }
+     catch (Exception ex){
+         ex.printStackTrace();
+     }
+        return haveConnectedWifi || haveConnectedMobile;
+    }
 
     /**
      * Method to verify google play services on the device

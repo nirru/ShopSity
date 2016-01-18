@@ -176,7 +176,7 @@ public class Checkout extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         TextView toolbar_title = (TextView) getActivity().findViewById(R.id.toolbar_title);
-        toolbar_title.setText("Action");
+        toolbar_title.setText("Checkout");
     }
 
     /**

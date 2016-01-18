@@ -220,6 +220,9 @@ public class ObjectiveScreen extends SampleActivityBase implements
                     case R.id.navItem3:
                         refreshFragement(3);
                         break;
+                    case R.id.navItem4:
+                        refreshFragement(4);
+                        break;
                     case R.id.navItem5:
                         final Intent intent = new Intent(ObjectiveScreen.this, LoginActivity.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
