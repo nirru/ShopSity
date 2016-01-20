@@ -42,576 +42,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba36e4c2-3e2b-4167-be08-27b73dd95f75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/res/drawable/popup_blue.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/res/drawable/popup_green.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/res/drawable/popup_red.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_af.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_al.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_am.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_an.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_aq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_as.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_at.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_au.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_aw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ax.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_az.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_be.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_br.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_by.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_bz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ci.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ck.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_co.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_cz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_de.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_dj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_dk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_dm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_dz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_eg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_eh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_er.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_es.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_et.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_fi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_fj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_fk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_fm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_fo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_fr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_fx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_gy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_hk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_hm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_hn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_hr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ht.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_hu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_id.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_il.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_im.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_io.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_iq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ir.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_is.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_it.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_je.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_jm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_jo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_jp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ke.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_kg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_kh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_km.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_kn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_kp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_kr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_kw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ky.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_kz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_la.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_lc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_li.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_lk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_lr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_lu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_lv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ly.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_md.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_me.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ml.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ms.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_my.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_mz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_na.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_nc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_nf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ng.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ni.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_nl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_np.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_nr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_nu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_nz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_om.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ps.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_pw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_py.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_qa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_re.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_rs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_rw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_si.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_so.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_st.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_sz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_td.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_th.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_to.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_tz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_um.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_us.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_uy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_uz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_va.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_vc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ve.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_vg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_vi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_vn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_vu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_wf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ws.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_xk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_ye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_yt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_yu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_za.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_zm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/flag_zw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/drawable-hdpi/search_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/libs/pgsdk.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/libs/socialauth-4.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/libs/socialauth-android-3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/advance_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/drawer_shadow.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/facebook_img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/header_image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/ic_account_circle_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/ic_bug_report_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/ic_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/ic_drawer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/ic_highlight_off_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/ic_search_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/ic_settings_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/mastercard_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/paytm_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/start_scr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-hdpi/visa_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/advance_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/drawer_shadow.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/ic_account_circle_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/ic_bug_report_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/ic_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/ic_drawer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/ic_highlight_off_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/ic_search_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/ic_settings_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/splash_scr_cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-mdpi/start_scr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/advance_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/ic_account_circle_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/ic_bug_report_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/ic_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/ic_drawer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/ic_highlight_off_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/ic_search_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/ic_settings_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/splash_scr_cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xhdpi/start_scr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/advance_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/drawer_shadow.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/ic_account_circle_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/ic_bug_report_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/ic_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/ic_drawer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/ic_highlight_off_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/ic_search_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/ic_settings_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/splash_scr_cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxhdpi/start_scr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/advance_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/ic_account_circle_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/ic_bug_report_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/ic_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/ic_highlight_off_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/ic_search_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/ic_settings_white_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/splash_scr_cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable-xxxhdpi/start_scr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-hdpi/mobikyte_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-mdpi/mobikyte_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-xhdpi/mobikyte_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-xxhdpi/mobikyte_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/mipmap-xxxhdpi/mobikyte_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/footer_mobi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.gradle/2.4/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/dbnavigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/MPAndroidChart_v2_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/android_maps_utils_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/android_priority_jobqueue_1_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/appcompat_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/cardview_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/design_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/eventbus_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/fragmenttransactionextended_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/hellocharts_android_v1_5_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/library_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/library_1_0_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/library_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/library_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/materialdatetimepicker_2_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/multidex_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/multidex_instrumentation_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/pgsdk.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/pre_lollipop_activity_transition_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/recyclerview_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/socialauth_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/socialauth_android_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/support_annotations_22_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/support_annotations_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/support_v4_22_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/libraries/support_v4_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/AndroidCharts.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/proguard-rules.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/java/com/dacer/androidcharts/BarView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/java/com/dacer/androidcharts/ClockPieHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/java/com/dacer/androidcharts/ClockPieView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/java/com/dacer/androidcharts/LineView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/java/com/dacer/androidcharts/MyUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/java/com/dacer/androidcharts/PieHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/java/com/dacer/androidcharts/PieView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/java/com/dacer/androidcharts/TempLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/AndroidCharts/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/proguard-project.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/layout/country_picker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/layout/row.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/values-fr/string_countries_code.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/values-fr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/values/string_countries_code.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/src/com/sithagi/countrycodepicker/Country.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/src/com/sithagi/countrycodepicker/CountryListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/src/com/sithagi/countrycodepicker/CountryPicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/CountryCodePicker/src/com/sithagi/countrycodepicker/CountryPickerListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/Mobikyte.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/androidTest/java/com/oxilo/mobikyte/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/debug/res/values/google_maps_api.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/assets/OpenSans-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/assets/fonts/AlexandriaFLF-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/assets/oauth_consumer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/API/RegistrationApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/AnalyticsTrackers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/ApplicationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/DataPullingInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/Job/CreateHeatMapGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/Job/CreateImpressionGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/Job/CreateIspGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/Job/Priority.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/MODAL/CustomModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/MODAL/MobiKytePlaceCampaignInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/MODAL/MobiKytePrefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/MODAL/UserCampaign.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/MyAnimator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/CampList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/DeviceDatum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/HeatmapDatum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/ImprDatum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/InVoiceObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/InvoiceList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/IspDatum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/ModalAddCampign.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/ModalAlreadyRegistred.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/ModalFetchCampaign.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/ModalGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/ModalInVoice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/ModalLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/POJO/ModalRegistration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/SocialAuthListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/activity/ForgotActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/activity/LoginActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/activity/MapsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/activity/Mobikyte.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/activity/SampleActivityBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/activity/SignUp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/activity/SplashScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/activity/WelcomeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/adapter/CampaignListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/adapter/InVoiceAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/adapter/PlaceAutocompleteAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/event/HeatMapFinishedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/event/ImpressionGraphFinishedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/event/IspGraphFinishedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/CampaignListingFragement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/Checkout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/FailFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/InVoiceFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/Map.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/Pay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/Preview.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/ReportFragement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/Settings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/ThankYou.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/graph/HeatMapFragement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/graph/HorizentalGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/graph/LineGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/fragement/graph/PieFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/holder/ChildHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/holder/ChildItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/holder/GroupHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/holder/GroupItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/logger/Log.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/logger/LogFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/logger/LogNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/logger/LogView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/logger/LogWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/logger/MessageOnlyLogFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/ui/ClearableAutoCompleteTextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/ui/CustomTextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/utility/ActivityUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/utility/AnimationUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/utility/PermissionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/volley/GsonRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/java/com/oxilo/mobikyte/volley/VolleyErrorHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/anim/appear.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/anim/disappear.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable/round_activated.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable/round_deactivated.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/drawable/rounded_text_cornerer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/actionbar_search.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/activity_forgot.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/activity_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/activity_maps.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/activity_mobikyte.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/activity_sign_up.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/activity_splash.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/activity_welcome.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/cardview.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_action.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_campaign_listing_fragement.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_checkout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_dashboard.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_heat_map_fragement.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_in_voice.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_map.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_message.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_pay.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_payment__fail.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_pie.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_preview.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_report_fragement.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/fragment_thankyou.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/line_progress.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/line_progress_five.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/line_progress_four.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/line_progress_second.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/line_progress_third.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/nav_header.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/layout/recyle_row.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/menu/global.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/menu/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/menu/navigation_drawer_items.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/values-v21/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/values-v21/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/main/res/xml/app_tracker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/release/res/values/google_maps_api.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/app/src/test/java/com/oxilo/mobikyte/ExampleUnitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/local.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mobikyte/settings.gradle" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/MPAndroidChart_v2_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_maps_utils_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_priority_jobqueue_1_3_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/eventbus_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/expandablerecyclerview_2_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/fragmenttransactionextended_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hellocharts_android_v1_5_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_0_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/materialdatetimepicker_2_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mint_4_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/pgsdk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_cast_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_drive_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_games_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_identity_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_location_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_vision_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/pre_lollipop_activity_transition_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/socialauth_4_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/socialauth_android_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release.apk" afterPath="$PROJECT_DIR$/app/app-release.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/MapsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/MapsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCharts/AndroidCharts.iml" afterPath="$PROJECT_DIR$/AndroidCharts/AndroidCharts.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" afterPath="$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SplashScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SplashScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Checkout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Checkout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mobikyte.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mobikyte.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/footer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/footer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_thankyou.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_thankyou.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_fragement.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_fragement.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/line_progress.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/line_progress.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/line_progress_five.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/line_progress_five.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/line_progress_four.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/line_progress_four.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/line_progress_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/line_progress_second.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/line_progress_third.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/line_progress_third.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/HeatMapFinishedEvent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/HeatMapFinishedEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Action.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Action.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Message.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Message.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ObjectiveFragement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ObjectiveFragement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Preview.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Preview.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/BarGraph.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/BarGraph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/ActivityUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/ActivityUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_action.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_action.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" afterPath="$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="ShopSity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -639,33 +147,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/WelcomeActivity.java">
+      <file leaf-file-name="BarGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/BarGraph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WelcomeFragement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/WelcomeFragement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Checkout.java">
+      <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Action.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.8153477">
-              <caret line="178" column="39" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="368" column="18" selection-start-line="368" selection-start-column="18" selection-end-line="368" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="92" column="92" selection-start-line="92" selection-start-column="92" selection-end-line="92" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModalAddCampign.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalAddCampign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.69962686">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Preview.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Preview.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="75" column="77" selection-start-line="75" selection-start-column="77" selection-end-line="75" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -683,7 +209,7 @@
     </option>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../SignedAPK/cityads.jks" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/cityads.jks" />
     <option name="KEY_ALIAS" value="CityAds" />
   </component>
   <component name="Git.Settings">
@@ -707,10 +233,6 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value=":CountryCodePicker" />
-                <option name="path" value="$PROJECT_DIR$/CountryCodePicker" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
                 <option name="name" value=":app" />
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
@@ -721,6 +243,10 @@
               <ExternalProjectPojo>
                 <option name="name" value="ShopSity" />
                 <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":CountryCodePicker" />
+                <option name="path" value="$PROJECT_DIR$/CountryCodePicker" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -3584,8 +3110,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../../../../NirmalSetup/android-job" value="5786166340000" />
-        <entry key="$PROJECT_DIR$" value="7240227319000" />
+        <entry key="/../NirmalSetup/android-job" value="5786166340000" />
+        <entry key="$PROJECT_DIR$" value="7266394404000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3907,8 +3433,8 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/22.0.0/support-v4-22.0.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/22.0.0/support-v4-22.0.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/CountryCodePicker" />
@@ -4015,17 +3541,17 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/design/23.1.1/design-23.1.1.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/design/23.1.1/design-23.1.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kogitune/pre-lollipop-activity-transition/1.1.0/721329a6589f92f3933d57c0860edd3b92b675/pre-lollipop-activity-transition-1.1.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services/8.4.0/play-services-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services/8.4.0/play-services-8.4.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/2.0.2/cf41b7e7abaf2df1e74b16806a98c7fbe66e2b4e/materialdatetimepicker-2.0.2.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.desarrollodroide/fragmenttransactionextended/1/5dd5919911d971f496a6847e84fa56f0772decdf/fragmenttransactionextended-1.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/cardview-v7/23.1.1/cardview-v7-23.1.1.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/cardview-v7/23.1.1/cardview-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.easing/library/1.0.1/8a138655d16289aeaebe6b451ebe1ef792df155c/library-1.0.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.androidanimations/library/1.1.3/48cf6a0ed2ed372e49de2cea3326172fb463c5fd/library-1.1.3.aar" />
@@ -4036,32 +3562,32 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.2.0/8957e80562a7e6ac5d9421e46e0898336c06c307/eventbus-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bignerdranch.android/expandablerecyclerview/2.0.4/8958270646ba0cad85fba9891eb38e8eb092716b/expandablerecyclerview-2.0.4.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.splunk.mint/mint/4.4.0/ccf19711fdad9f12a44517dc9ed639911297ef1f/mint-4.4.0.jar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-ads/8.4.0/play-services-ads-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-analytics/8.4.0/play-services-analytics-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-appindexing/8.4.0/play-services-appindexing-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-appinvite/8.4.0/play-services-appinvite-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-appstate/8.4.0/play-services-appstate-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-auth/8.4.0/play-services-auth-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-base/8.4.0/play-services-base-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-basement/8.4.0/play-services-basement-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-cast/8.4.0/play-services-cast-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-drive/8.4.0/play-services-drive-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-fitness/8.4.0/play-services-fitness-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-games/8.4.0/play-services-games-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-gcm/8.4.0/play-services-gcm-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-identity/8.4.0/play-services-identity-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-location/8.4.0/play-services-location-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-maps/8.4.0/play-services-maps-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-measurement/8.4.0/play-services-measurement-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-nearby/8.4.0/play-services-nearby-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-panorama/8.4.0/play-services-panorama-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-plus/8.4.0/play-services-plus-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-safetynet/8.4.0/play-services-safetynet-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-vision/8.4.0/play-services-vision-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-wallet/8.4.0/play-services-wallet-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-wearable/8.4.0/play-services-wearable-8.4.0.aar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
-                            <option value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/mediarouter-v7/23.0.0/mediarouter-v7-23.0.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-ads/8.4.0/play-services-ads-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-analytics/8.4.0/play-services-analytics-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-appindexing/8.4.0/play-services-appindexing-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-appinvite/8.4.0/play-services-appinvite-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-appstate/8.4.0/play-services-appstate-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-auth/8.4.0/play-services-auth-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-base/8.4.0/play-services-base-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-basement/8.4.0/play-services-basement-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-cast/8.4.0/play-services-cast-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-drive/8.4.0/play-services-drive-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-fitness/8.4.0/play-services-fitness-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-games/8.4.0/play-services-games-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-gcm/8.4.0/play-services-gcm-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-identity/8.4.0/play-services-identity-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-location/8.4.0/play-services-location-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-maps/8.4.0/play-services-maps-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-measurement/8.4.0/play-services-measurement-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-nearby/8.4.0/play-services-nearby-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-panorama/8.4.0/play-services-panorama-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-plus/8.4.0/play-services-plus-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-safetynet/8.4.0/play-services-safetynet-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-vision/8.4.0/play-services-vision-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-wallet/8.4.0/play-services-wallet-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/google/m2repository/com/google/android/gms/play-services-wearable/8.4.0/play-services-wearable-8.4.0.aar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
+                            <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/mediarouter-v7/23.0.0/mediarouter-v7-23.0.0.aar" />
                             <option value="$MODULE_DIR$/libs/pgsdk.jar" />
                             <option value="$MODULE_DIR$/libs/socialauth-4.9.jar" />
                             <option value="$MODULE_DIR$/libs/socialauth-android-3.2.jar" />
@@ -4203,23 +3729,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ChangePasswordFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_checkout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/FailFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment__fail.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_in_voice.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_learn_more.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/LearnMoreFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_map.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Map.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Message.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_message.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_objective_fragement.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ObjectiveFragement.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_pay.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Pay.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_preview.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Preview.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_report_fragement.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ReportFragement.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Settings.java" />
@@ -4231,7 +3747,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_heat_map_fragement.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/objective_screen_2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Action.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/WelcomeFragement.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/InVoiceFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/HelpFragement.java" />
@@ -4244,23 +3759,35 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/line_progress_four.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/line_progress_second.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/line_progress_third.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/MapsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/footer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mobikyte.xml" />
-        <option value="$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_fragement.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_thankyou.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_action.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ObjectiveFragement.java" />
+        <option value="$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/android/support/v4/app/ActivityCompat.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/ActivityUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" />
+        <option value="$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Message.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Preview.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Action.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Checkout.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/HeatMapFinishedEvent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/BarGraph.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1600" />
-    <option name="height" value="807" />
+    <option name="x" value="-4" />
+    <option name="y" value="22" />
+    <option name="width" value="1059" />
+    <option name="height" value="680" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -4287,17 +3814,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopSity" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -4308,7 +3824,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShopSity" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -4419,16 +3944,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShopSity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShopSity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oxilo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Nirmal Setup/mySample" />
-    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk" />
-    <property name="device.picker.selection" value="E5722A1220300830" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cityads.jks" />
+    <property name="android.sdk.path" value="/../NirmalSetup/software/adt-bundle-mac-x86_64-20140702/sdk" />
+    <property name="device.picker.selection" value="192.168.1.3:5555" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
@@ -4472,6 +4041,9 @@
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
       </Native>
       <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -4504,6 +4076,9 @@
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
       </Native>
       <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -4651,7 +4226,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android Application" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -4678,6 +4253,9 @@
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
       </Native>
       <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -4712,37 +4290,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1600" height="807" extended-state="6" />
-    <editor active="false" />
+    <frame x="-4" y="22" width="1059" height="680" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29400197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3560058" sideWeight="0.49743262" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49743262" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942113" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44283646" sideWeight="0.5025674" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26253688" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -4765,186 +4343,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Checkout.java</url>
-          <line>290</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ReportFragement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65707433">
-          <caret line="169" column="8" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="8" />
-          <folding>
-            <element signature="e#9670#9732#0" expanded="false" />
-            <element signature="e#9824#9888#0" expanded="false" />
-            <element signature="e#9981#10046#0" expanded="false" />
-            <element signature="e#10140#10203#0" expanded="false" />
-            <element signature="e#10295#10357#0" expanded="false" />
-            <element signature="e#10448#10514#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.945055">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15347722">
-          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pie.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12362637">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/PieFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1414868">
-          <caret line="178" column="45" selection-start-line="178" selection-start-column="45" selection-end-line="178" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/HorizentalGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_heat_map_fragement.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5769231">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/HeatMapFragement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4964029">
-          <caret line="200" column="60" selection-start-line="200" selection-start-column="60" selection-end-line="200" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/CampaignListingFragement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2613909">
-          <caret line="188" column="5" selection-start-line="183" selection-start-column="4" selection-end-line="188" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_objective_fragement.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3708792">
-          <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
-          <folding>
-            <element signature="e#1746#1781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ObjectiveFragement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2086331">
-          <caret line="92" column="58" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3207545">
-          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-          <folding>
-            <element signature="e#853#900#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6810552">
-          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_learn_more.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6703297">
-          <caret line="41" column="0" selection-start-line="31" selection-start-column="4" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation_drawer_items.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7302799">
-          <caret line="30" column="54" selection-start-line="27" selection-start-column="11" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="e#1018#1041#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/objective_screen_2.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71153843">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/LearnMoreFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_help_fragement.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -4960,7 +4363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035971224">
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4968,7 +4370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.040983606">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5027,24 +4428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="e#1181#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="257" column="17" selection-start-line="257" selection-start-column="17" selection-end-line="257" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/MapsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53956836">
@@ -5073,14 +4456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.32967034">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7290168">
-          <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -5144,7 +4519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65707433">
           <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5152,7 +4526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29736212">
           <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5180,19 +4553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/Mobikyte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6211031">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5755396">
           <caret line="108" column="39" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5203,32 +4567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7005494">
           <caret line="63" column="17" selection-start-line="56" selection-start-column="7" selection-end-line="63" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/WelcomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -5278,22 +4616,216 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/ObjectiveScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4197761">
+          <caret line="281" column="94" selection-start-line="281" selection-start-column="94" selection-end-line="281" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ChangePasswordFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33208954">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/WelcomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/WelcomeFragement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.03">
           <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/ObjectiveFragement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72">
+          <caret line="184" column="35" selection-start-line="184" selection-start-column="35" selection-end-line="184" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/android/support/v4/app/ActivityCompat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.332">
+          <caret line="312" column="23" selection-start-line="312" selection-start-column="23" selection-end-line="312" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/android/support/v4/app/ActivityCompat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.332">
+          <caret line="312" column="23" selection-start-line="312" selection-start-column="23" selection-end-line="312" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/utility/ActivityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.542">
+          <caret line="217" column="34" selection-start-line="217" selection-start-column="34" selection-end-line="217" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7157895">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7719298">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="376" column="0" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_action.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.962264">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/CampList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0429103">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/HeatMapFinishedEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/event/DailyClickGraphFinishedEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalCheckOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47574627">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/graph/BarGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Checkout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.8153477">
-          <caret line="178" column="39" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.13992538">
+          <caret line="356" column="45" selection-start-line="356" selection-start-column="45" selection-end-line="356" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Preview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="77" selection-start-line="75" selection-start-column="77" selection-end-line="75" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22014925">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="368" column="18" selection-start-line="368" selection-start-column="18" selection-end-line="368" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/activity/Mobikyte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38432837">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/fragement/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="92" selection-start-line="92" selection-start-column="92" selection-end-line="92" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/oxilo/shopsity/POJO/ModalAddCampign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69962686">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding />
         </state>
       </provider>

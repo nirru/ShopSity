@@ -33,6 +33,4 @@ public class HeatMapFinishedEvent {
     public void setLatLngArrayList(ArrayList<LatLng> latLngArrayList) {
         this.latLngArrayList = latLngArrayList;
     }
-
-
 }

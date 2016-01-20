@@ -21,7 +21,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
 import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,10 +42,12 @@ import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 import com.wdullaer.materialdatetimepicker.time.RadialPickerLayout;
 import com.wdullaer.materialdatetimepicker.time.TimePickerDialog;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -261,6 +265,62 @@ public class Message extends Fragment {
                 timePickerDialog.show(getFragmentManager(),"Timepickerdialog");
             }
         });
+
+        mStartDateView.setText(getCurrentDate());
+        mStartTimeView.setText(getCurrentTime());
+
+        mCampaignView.addTextChangedListener(new TextWatcher() {
+
+            @Override
+            public void afterTextChanged(Editable s) {}
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start,
+                                          int count, int after) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start,
+                                      int before, int count) {
+                if(s.length() != 0){
+                    try {
+                        mPromotionMessageView.setText(s.toString());
+                    }catch (Exception ex){
+                        ex.printStackTrace();
+                    }
+                }
+            }
+        });
+
+    }
+
+    private String getCurrentTime(){
+        String currentTime = null;
+        try{
+            Calendar calendar = Calendar.getInstance();
+            DateFormat df = new SimpleDateFormat("hh:mm a", Locale.ENGLISH);
+            //Parse given STRING date to DATE format through df
+            Date d1 = new Date(calendar.getTimeInMillis());
+            currentTime = df.format(d1.getTime());
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return currentTime;
+    }
+
+    private String getCurrentDate(){
+        String currentDate = null;
+        try{
+            Calendar calendar = Calendar.getInstance();
+            //Pass String Date Format To Set UserDefined Date
+            DateFormat df = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
+            //Parse given STRING date to DATE format through df
+            Date d1 = new Date(calendar.getTimeInMillis());
+            currentDate = df.format(d1.getTime());
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return currentDate;
     }
 
     private void attemptCampaignCreation(){

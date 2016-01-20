@@ -198,7 +198,7 @@ public class Preview extends Fragment {
 
         campaignTitleView.setText(userCampaign.getCampaignTitle());
         campaignMessageView.setText(userCampaign.getPromotionMessage());
-        actionView.setText(userCampaign.getCall() + "/" + userCampaign.getWebRequestUrl());
+        actionView.setText(userCampaign.getWebRequestUrl());
         try {
             if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.M){
                 locationView.setText("Mumbai");

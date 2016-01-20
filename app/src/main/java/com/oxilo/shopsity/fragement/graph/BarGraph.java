@@ -57,8 +57,6 @@ public class BarGraph {
             dataSets = new ArrayList<>();
             dataSets.add(barDataSet1);
 
-
-
         return dataSets;
     }
 
@@ -72,7 +70,6 @@ public class BarGraph {
                 }
 
             }
-
 
         return xAxis;
     }

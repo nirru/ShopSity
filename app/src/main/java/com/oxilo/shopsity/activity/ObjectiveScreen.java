@@ -280,6 +280,7 @@ public class ObjectiveScreen extends SampleActivityBase implements
             case 7:
                 mapFragment = ChangePasswordFragment.newInstance(modalLogin, "");
                 ActivityUtils.launchFragementWithAnimation(mapFragment, ObjectiveScreen.this);
+                break;
             case 8:
                 AboutFragement aboutFragement = AboutFragement.newInstance("", "");
                 ActivityUtils.launchFragementWithAnimation(aboutFragement, ObjectiveScreen.this);

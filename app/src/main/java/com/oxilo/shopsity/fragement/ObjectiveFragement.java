@@ -182,6 +182,7 @@ public class ObjectiveFragement extends Fragment {
         });
 
 
+        objCheckBox.setChecked(true);
         objCheckBox.setOnClickListener(l);
         objCheckBox1.setOnClickListener(l);
         objCheckBox2.setOnClickListener(l);

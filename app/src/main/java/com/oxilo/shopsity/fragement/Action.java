@@ -234,11 +234,11 @@ public class Action extends Fragment {
         }
 
         // Check for a valid call address.
-       else if (TextUtils.isEmpty(call)) {
-            callView.setError(getString(R.string.error_field_required));
-            focusView = callView;
-            cancel = true;
-        }
+//       else if (TextUtils.isEmpty(call)) {
+//            callView.setError(getString(R.string.error_field_required));
+//            focusView = callView;
+//            cancel = true;
+//        }
         if (cancel) {
             // There was an error; don't attempt login and focus the first
             // form field with an error.

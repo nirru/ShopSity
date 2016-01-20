@@ -171,6 +171,17 @@ public class ActivityUtils {
 
     }
 
+
+    public static String GetCurrentTime(long millisecond) {
+        //Pass String Date Format To Set UserDefined Date
+        DateFormat df = new SimpleDateFormat("EEE, hh:mm a", Locale.ENGLISH);
+        //Parse given STRING date to DATE format through df
+        Date d1 = new Date(millisecond * 1000);
+        String dateTime = df.format(d1.getTime());
+
+        return dateTime;
+
+    }
     public static String GetStartDate(long millisecond) {
         //Pass String Date Format To Set UserDefined Date
         DateFormat df = new SimpleDateFormat("EEE, d MMM yyyy", Locale.ENGLISH);
@@ -204,7 +215,7 @@ public class ActivityUtils {
         alertDialog.setTitle("Location Setting");
 
         // Setting Dialog Message
-        alertDialog.setMessage("Mobikyte would like to access the location. Do you want to go to settings menu?");
+        alertDialog.setMessage("SityAds would like to access the location. Do you want to go to settings menu?");
 
         // On pressing Settings button
         alertDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
