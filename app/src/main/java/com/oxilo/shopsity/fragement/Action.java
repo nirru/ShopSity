@@ -246,9 +246,33 @@ public class Action extends Fragment {
         } else {
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
-            showProgress(true);
-           doSomething();
+//            showProgress(true);
+//            doSomething();
+            actionNext();
         }
+    }
+
+    private void actionNext(){
+        String  web, action;
+        if (webSiteView.getText().toString().equals("") || webSiteView.getText().toString().equals("null"))
+        {
+            web = "http://wwww.mobikyte.com";
+        }else{
+            web = webSiteView.getText().toString();
+        }
+
+        if (callView.getText().toString().equals("") || callView.getText().toString().equals("null"))
+        {
+            action = "123456789";
+        }else{
+            action = callView.getText().toString();
+        }
+
+        userCampaign.setCall(action);
+        userCampaign.setWebRequestUrl(web);
+
+        Preview preview = Preview.newInstance(place, userCampaign, modalLogin);
+        ActivityUtils.launchFragementWithAnimation(preview,getActivity());
     }
 
     /**
@@ -267,7 +291,7 @@ public class Action extends Fragment {
                     JSONObject jsonObject = new JSONObject(response);
                     if (jsonObject.getString("status").equals(getResources().getString(R.string.response_success))){
                         ModalAddCampign modalAddCampign = gson.fromJson(response, ModalAddCampign.class);
-                        Preview preview = Preview.newInstance(place, userCampaign, modalAddCampign, modalLogin);
+                        Preview preview = Preview.newInstance(place, userCampaign, modalLogin);
                         ActivityUtils.launchFragementWithAnimation(preview,getActivity());
                     }
                     else if (jsonObject.getString("status").equals(getResources().getString(R.string.response_error))){

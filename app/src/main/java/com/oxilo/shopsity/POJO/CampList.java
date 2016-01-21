@@ -41,10 +41,10 @@ public class CampList implements Parcelable{
     private String promoMsg;
     @SerializedName("start_date")
     @Expose
-    private Integer startDate;
+    private Long startDate;
     @SerializedName("end_date")
     @Expose
-    private Integer endDate;
+    private Long endDate;
     @SerializedName("total_imp")
     @Expose
     private String totalImp;
@@ -86,8 +86,8 @@ public class CampList implements Parcelable{
         webUrl = in.readString();
         campName = in.readString();
         promoMsg = in.readString();
-        startDate = in.readInt();
-        endDate = in.readInt();
+        startDate = in.readLong();
+        endDate = in.readLong();
         totalImp = in.readString();
         shownImp = in.readInt();
         clicks = in.readInt();
@@ -225,7 +225,7 @@ public class CampList implements Parcelable{
      * @return
      * The startDate
      */
-    public Integer getStartDate() {
+    public Long getStartDate() {
         return startDate;
     }
 
@@ -234,7 +234,7 @@ public class CampList implements Parcelable{
      * @param startDate
      * The start_date
      */
-    public void setStartDate(Integer startDate) {
+    public void setStartDate(Long startDate) {
         this.startDate = startDate;
     }
 
@@ -243,7 +243,7 @@ public class CampList implements Parcelable{
      * @return
      * The endDate
      */
-    public Integer getEndDate() {
+    public Long getEndDate() {
         return endDate;
     }
 
@@ -252,7 +252,7 @@ public class CampList implements Parcelable{
      * @param endDate
      * The end_date
      */
-    public void setEndDate(Integer endDate) {
+    public void setEndDate(Long endDate) {
         this.endDate = endDate;
     }
 
@@ -467,8 +467,8 @@ public class CampList implements Parcelable{
         parcel.writeString(webUrl);
         parcel.writeString(campName);
         parcel.writeString(promoMsg);
-        parcel.writeInt(startDate);
-        parcel.writeInt(endDate);
+        parcel.writeLong(startDate);
+        parcel.writeLong(endDate);
         parcel.writeString(totalImp);
         parcel.writeInt(shownImp);
         parcel.writeInt(clicks);

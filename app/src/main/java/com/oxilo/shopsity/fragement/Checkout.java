@@ -55,6 +55,7 @@ import com.paytm.pgsdk.PaytmPaymentTransactionCallback;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.ParseException;
 import java.util.*;
 
 /**
@@ -297,8 +298,6 @@ public class Checkout extends Fragment {
                     JSONObject jsonObject = new JSONObject(response);
                     if (jsonObject.getString("status").equals(getResources().getString(R.string.response_success))){
                         ModalCheckOut modalCheckOut = gson.fromJson(response, ModalCheckOut.class);
-                        int size = modalCheckOut.getCampList().size();
-                        Log.e("SIS", "" + size);
                         ThankYou thankYou = ThankYou.newInstance(userCampaign,modalAddCampign,modalLogin,modalCheckOut);
                         ActivityUtils.launchFragementWithAnimation(thankYou,getActivity());
                     }
@@ -310,6 +309,13 @@ public class Checkout extends Fragment {
                     Log.e("My App", "Could not parse malformed JSON: \"" + response + "\"");
                     e.printStackTrace();
                 }
+                catch (NumberFormatException ex){
+                    ex.printStackTrace();
+                }
+                catch (NullPointerException ex){
+                    ex.printStackTrace();
+                }
+
             }
         }, new Response.ErrorListener() {
             @Override

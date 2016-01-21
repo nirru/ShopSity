@@ -64,13 +64,17 @@ public class CampaignListAdapter extends RecyclerView.Adapter<CampaignListAdapte
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         CampList campList = campLists.get(position);
-        holder.call_webView.setText("" + campList.getCall() + campList.getWeb());
-        holder.totalAdsRemainingView.setText("" + campList.getShownImp());
-        holder.totalAdsView.setText("" + campList.getTotalImp());
-        holder.startTimeView.setText("" + ActivityUtils.GetDateTime(Long.valueOf(campList.getStartDate())));
-        holder.campaignView.setText("" + campList.getCampId());
-        holder.action_status.setText("" + campList.getCampStatus());
-        setAnimation(holder,position);
+        try {
+            holder.call_webView.setText("" + campList.getCall() + campList.getWeb());
+            holder.totalAdsRemainingView.setText("" + campList.getShownImp());
+            holder.totalAdsView.setText("" + campList.getTotalImp());
+            holder.startTimeView.setText("" + ActivityUtils.GetDateTime(Long.valueOf(campList.getStartDate())));
+            holder.campaignView.setText("" + campList.getCampId());
+            holder.action_status.setText("" + campList.getCampStatus());
+            setAnimation(holder,position);
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
     }
 
     @Override

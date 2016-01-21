@@ -38,6 +38,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.util.zip.DataFormatException;
 
 /**
  * Created by ericbasendra on 15/11/15.
@@ -162,10 +163,18 @@ public class ActivityUtils {
 
     public static String GetDateTime(long millisecond) {
         //Pass String Date Format To Set UserDefined Date
-        DateFormat df = new SimpleDateFormat("EEE, d MMM yyyy, h:mm a", Locale.ENGLISH);
-        //Parse given STRING date to DATE format through df
-        Date d1 = new Date(millisecond * 1000);
-        String dateTime = df.format(d1.getTime());
+        String dateTime = "uu";
+        try {
+            DateFormat df = new SimpleDateFormat("EEE, d MMM yyyy, h:mm a", Locale.ENGLISH);
+            //Parse given STRING date to DATE format through df
+            Date d1 = new Date(millisecond * 1000);
+            dateTime = df.format(d1.getTime());
+        }catch (NumberFormatException ex){
+            ex.printStackTrace();
+        }
+        catch (Exception ex){
+            ex.printStackTrace();
+        }
 
         return dateTime;
 

@@ -50,7 +50,7 @@ public class Preview extends Fragment {
 
     // TODO: Rename and change types of parameters
     private UserCampaign userCampaign;
-    ModalAddCampign modalAddCampign;
+//    ModalAddCampign modalAddCampign;
     ModalLogin modalLogin;
 //    Toolbar toolbar;
 
@@ -69,15 +69,13 @@ public class Preview extends Fragment {
      * this fragment using the provided parameters.
      *
      * @param userCampaign Parameter 1.
-     * @param modalAddCampign Parameter 2.
      * @return A new instance of fragment Preview.
      */
     // TODO: Rename and change types and number of parameters
-    public static Preview newInstance(MobiKytePlaceCampaignInfo place,UserCampaign userCampaign,ModalAddCampign modalAddCampign,ModalLogin modalLogin) {
+    public static Preview newInstance(MobiKytePlaceCampaignInfo place,UserCampaign userCampaign,ModalLogin modalLogin) {
         Preview fragment = new Preview();
         Bundle args = new Bundle();
         args.putParcelable(ARG_PARAM1, userCampaign);
-        args.putParcelable(ARG_PARAM2, modalAddCampign);
         args.putParcelable(ARG_PARAM3, modalLogin);
         args.putParcelable(ARG_PARAM4, place);
         fragment.setArguments(args);
@@ -93,7 +91,6 @@ public class Preview extends Fragment {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             userCampaign = getArguments().getParcelable(ARG_PARAM1);
-            modalAddCampign = getArguments().getParcelable(ARG_PARAM2);
             modalLogin = getArguments().getParcelable(ARG_PARAM3);
             place = getArguments().getParcelable(ARG_PARAM4);
         }
@@ -190,11 +187,11 @@ public class Preview extends Fragment {
         String orderId = null;
         double lat = 20.0;
         double lng = 34.0;
-        if (modalAddCampign != null){
-            orderId = "" + modalAddCampign.getOrderId();
-        }else {
-            orderId = "" + 456;
-        }
+//        if (modalAddCampign != null){
+//            orderId = "" + modalAddCampign.getOrderId();
+//        }else {
+//            orderId = "" + 456;
+//        }
 
         campaignTitleView.setText(userCampaign.getCampaignTitle());
         campaignMessageView.setText(userCampaign.getPromotionMessage());
@@ -212,7 +209,7 @@ public class Preview extends Fragment {
         }
 
 
-        camapignView.setText(orderId);
+//        camapignView.setText(orderId);
         startDateView.setText(userCampaign.getStartDate());
 
 //        locationView.setText(String.format("%.2f", place.getLat()) + "/" + String.format("%.2f", place.getLng()));
@@ -221,7 +218,7 @@ public class Preview extends Fragment {
         btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              Pay checkout = Pay.newInstance(place,userCampaign,modalAddCampign,modalLogin);
+              Pay checkout = Pay.newInstance(place,userCampaign,modalLogin);
                 ActivityUtils.launchFragementWithAnimation(checkout,getActivity());
             }
         });
